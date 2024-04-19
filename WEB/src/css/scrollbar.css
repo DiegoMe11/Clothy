@@ -1,0 +1,33 @@
+@import url('base.css');
+
+/* Para navegadores webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 18px; /* Ancho de la barra de desplazamiento vertical */
+    height: 20px; /* Altura de la barra de desplazamiento horizontal */
+}
+
+/* Para la barra de desplazamiento vertical */
+::-webkit-scrollbar-thumb {
+    background-color: var(--gris-1); /* Color del "thumb" (la parte que puedes arrastrar) */
+    border-radius: 20px; /* Borde redondeado del "thumb" */
+    border: 5px solid #FAFAFA;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6a6a6a; /* Color del "thumb" (la parte que puedes arrastrar) */
+}
+
+/* Para la barra de desplazamiento horizontal */
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #333; /* Color del "thumb" (la parte que puedes arrastrar) */
+    border-radius: 5px; /* Borde redondeado del "thumb" */
+}
+
+/* Para la pista de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background-color: #FAFAFA; /* Color de la pista */
+}
+
+/* Para la esquina entre la pista y el "thumb" */
+::-webkit-scrollbar-corner {
+    background-color: transparent; /* Color transparente */
+}
