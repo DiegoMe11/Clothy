@@ -1,0 +1,37 @@
+[0.775s] Invoking command in '/home/cmarrod3/turtlebot3_ws/src/my_nav2_system': PYTHONPATH=/home/cmarrod3/turtlebot3_ws/build/my_nav2_system/prefix_override:/home/cmarrod3/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_nav2_system build --build-base /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/build install --record /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/install.log --single-version-externally-managed
+[0.929s] running egg_info
+[0.929s] creating ../../build/my_nav2_system/my_nav2_system.egg-info
+[0.929s] writing ../../build/my_nav2_system/my_nav2_system.egg-info/PKG-INFO
+[0.929s] writing dependency_links to ../../build/my_nav2_system/my_nav2_system.egg-info/dependency_links.txt
+[0.929s] writing entry points to ../../build/my_nav2_system/my_nav2_system.egg-info/entry_points.txt
+[0.930s] writing requirements to ../../build/my_nav2_system/my_nav2_system.egg-info/requires.txt
+[0.930s] writing top-level names to ../../build/my_nav2_system/my_nav2_system.egg-info/top_level.txt
+[0.930s] writing manifest file '../../build/my_nav2_system/my_nav2_system.egg-info/SOURCES.txt'
+[0.955s] reading manifest file '../../build/my_nav2_system/my_nav2_system.egg-info/SOURCES.txt'
+[0.956s] writing manifest file '../../build/my_nav2_system/my_nav2_system.egg-info/SOURCES.txt'
+[0.956s] running build
+[0.956s] running build_py
+[0.956s] creating /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/build
+[0.956s] creating /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/build/lib
+[0.956s] creating /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/build/lib/my_nav2_system
+[0.956s] copying my_nav2_system/__init__.py -> /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/build/lib/my_nav2_system
+[0.956s] running install
+[0.957s] running install_lib
+[0.958s] creating /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages/my_nav2_system
+[0.958s] copying /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/build/lib/my_nav2_system/__init__.py -> /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages/my_nav2_system
+[0.958s] byte-compiling /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages/my_nav2_system/__init__.py to __init__.cpython-38.pyc
+[0.959s] running install_data
+[0.959s] creating /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/ament_index
+[0.959s] creating /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/ament_index/resource_index
+[0.959s] creating /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/ament_index/resource_index/packages
+[0.959s] copying resource/my_nav2_system -> /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/ament_index/resource_index/packages
+[0.959s] copying package.xml -> /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/my_nav2_system
+[0.959s] creating /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/my_nav2_system/launch
+[0.959s] copying launch/my_nav2_system.launch.py -> /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/my_nav2_system/launch
+[0.959s] creating /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/my_nav2_system/config
+[0.959s] copying config/my_nav2_params.yaml -> /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/share/my_nav2_system/config
+[0.959s] running install_egg_info
+[0.960s] Copying ../../build/my_nav2_system/my_nav2_system.egg-info to /home/cmarrod3/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages/my_nav2_system-0.0.0-py3.8.egg-info
+[0.961s] running install_scripts
+[0.973s] writing list of installed files to '/home/cmarrod3/turtlebot3_ws/build/my_nav2_system/install.log'
+[0.987s] Invoked command in '/home/cmarrod3/turtlebot3_ws/src/my_nav2_system' returned '0': PYTHONPATH=/home/cmarrod3/turtlebot3_ws/build/my_nav2_system/prefix_override:/home/cmarrod3/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_nav2_system build --build-base /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/build install --record /home/cmarrod3/turtlebot3_ws/build/my_nav2_system/install.log --single-version-externally-managed

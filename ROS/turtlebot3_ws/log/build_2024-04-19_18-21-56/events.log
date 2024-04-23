@@ -1,0 +1,485 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.000120] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000129] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000136] (-) JobUnselected: {'identifier': 'my_first_service'}
+[0.000144] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000151] (-) JobUnselected: {'identifier': 'show_msg'}
+[0.000157] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000164] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000171] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000180] (my_world) JobQueued: {'identifier': 'my_world', 'dependencies': OrderedDict([('turtlebot3_gazebo', '/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo')])}
+[0.000192] (my_world) JobStarted: {'identifier': 'my_world'}
+[0.099639] (-) TimerEvent: {}
+[0.101526] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'cmake'}
+[0.101855] (my_world) Command: {'cmd': ['/usr/bin/cmake', '/home/cmarrod3/turtlebot3_ws/src/my_world', '-DCMAKE_INSTALL_PREFIX=/home/cmarrod3/turtlebot3_ws/install/my_world'], 'cwd': '/home/cmarrod3/turtlebot3_ws/build/my_world', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1663'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cmarrod3/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cmarrod3'), ('OLDPWD', '/home/cmarrod3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1444'), ('ROS_LOG_DIR', '/home/cmarrod3/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:36556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/cmarrod3/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/cmarrod3/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Robotica:@/tmp/.ICE-unix/1698,unix/Robotica:/tmp/.ICE-unix/1698'), ('INVOCATION_ID', '3710319827314f0d93ae1994cfe61a8a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c172d02_56db_442b_82d1_8a679113f53e'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmarrod3/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cmarrod3/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic')]), 'shell': False}
+[0.191287] (my_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199924] (-) TimerEvent: {}
+[0.248037] (my_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.255858] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300323] (-) TimerEvent: {}
+[0.302542] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.304017] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.347401] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.354722] (my_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.355540] (my_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.358515] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.404487] (-) TimerEvent: {}
+[0.406574] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.407585] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.462326] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.469464] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.470203] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.477783] (my_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.499803] (my_world) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.500092] (my_world) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.504758] (-) TimerEvent: {}
+[0.580929] (my_world) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[0.584621] (my_world) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.601136] (my_world) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[0.605059] (-) TimerEvent: {}
+[0.687161] (my_world) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[0.705426] (-) TimerEvent: {}
+[0.723745] (my_world) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[0.760139] (my_world) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[0.787613] (my_world) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.805626] (-) TimerEvent: {}
+[0.905976] (-) TimerEvent: {}
+[1.000206] (my_world) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.006301] (-) TimerEvent: {}
+[1.022006] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.027842] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.036688] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.039145] (my_world) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.039612] (my_world) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.042996] (my_world) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.052318] (my_world) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.075576] (my_world) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.081120] (my_world) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.088132] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.092609] (my_world) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.092735] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.096762] (my_world) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.096880] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.100831] (my_world) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.100934] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.104537] (my_world) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.104621] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.107257] (-) TimerEvent: {}
+[1.108205] (my_world) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.108276] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.112164] (my_world) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.199949] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.203737] (my_world) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[1.204017] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.208366] (-) TimerEvent: {}
+[1.216782] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.225536] (my_world) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.228655] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.241738] (my_world) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[1.267753] (my_world) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.272234] (my_world) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.281140] (my_world) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[1.303346] (my_world) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.306008] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.306250] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.308680] (-) TimerEvent: {}
+[1.319144] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.323018] (my_world) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.332455] (my_world) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[1.359526] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.362163] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[1.362460] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.363011] (my_world) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.363556] (my_world) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.364538] (my_world) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.370513] (my_world) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.373013] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[1.373355] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.373532] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.376799] (my_world) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[1.377078] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.408961] (-) TimerEvent: {}
+[1.426063] (my_world) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[1.433672] (my_world) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.444695] (my_world) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.467131] (my_world) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.473211] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.482059] (my_world) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[1.504646] (my_world) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.504851] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[1.505076] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.505350] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.508387] (my_world) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)\n'}
+[1.509111] (-) TimerEvent: {}
+[1.510220] (my_world) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.542073] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.550734] (my_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.609327] (-) TimerEvent: {}
+[1.612952] (my_world) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.633444] (my_world) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.703057] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.709389] (-) TimerEvent: {}
+[1.771502] (my_world) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[1.811167] (-) TimerEvent: {}
+[1.821725] (my_world) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.874325] (my_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.877949] (my_world) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.895641] (my_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.897030] (my_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.911198] (-) TimerEvent: {}
+[2.005798] (my_world) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[2.011975] (-) TimerEvent: {}
+[2.061421] (my_world) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[2.071765] (my_world) StdoutLine: {'line': b'-- Found turtlebot3_gazebo: 2.2.4 (/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)\n'}
+[2.113737] (-) TimerEvent: {}
+[2.140494] (my_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.147004] (my_world) StdoutLine: {'line': b'-- Generating done\n'}
+[2.148511] (my_world) StdoutLine: {'line': b'-- Build files have been written to: /home/cmarrod3/turtlebot3_ws/build/my_world\n'}
+[2.155700] (my_world) CommandEnded: {'returncode': 0}
+[2.156396] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'build'}
+[2.156952] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cmarrod3/turtlebot3_ws/build/my_world', '--', '-j2', '-l2'], 'cwd': '/home/cmarrod3/turtlebot3_ws/build/my_world', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1663'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cmarrod3/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cmarrod3'), ('OLDPWD', '/home/cmarrod3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1444'), ('ROS_LOG_DIR', '/home/cmarrod3/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:36556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/cmarrod3/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/cmarrod3/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Robotica:@/tmp/.ICE-unix/1698,unix/Robotica:/tmp/.ICE-unix/1698'), ('INVOCATION_ID', '3710319827314f0d93ae1994cfe61a8a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c172d02_56db_442b_82d1_8a679113f53e'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmarrod3/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cmarrod3/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic')]), 'shell': False}
+[2.184768] (my_world) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[2.214223] (-) TimerEvent: {}
+[2.305669] (my_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[2.314439] (-) TimerEvent: {}
+[2.415281] (-) TimerEvent: {}
+[2.516215] (-) TimerEvent: {}
+[2.616638] (-) TimerEvent: {}
+[2.717250] (-) TimerEvent: {}
+[2.818171] (-) TimerEvent: {}
+[2.920006] (-) TimerEvent: {}
+[3.020786] (-) TimerEvent: {}
+[3.123287] (-) TimerEvent: {}
+[3.224597] (-) TimerEvent: {}
+[3.325518] (-) TimerEvent: {}
+[3.426799] (-) TimerEvent: {}
+[3.527658] (-) TimerEvent: {}
+[3.628349] (-) TimerEvent: {}
+[3.729328] (-) TimerEvent: {}
+[3.830125] (-) TimerEvent: {}
+[3.930365] (-) TimerEvent: {}
+[4.030823] (-) TimerEvent: {}
+[4.131255] (-) TimerEvent: {}
+[4.231596] (-) TimerEvent: {}
+[4.331894] (-) TimerEvent: {}
+[4.432493] (-) TimerEvent: {}
+[4.532884] (-) TimerEvent: {}
+[4.633465] (-) TimerEvent: {}
+[4.734714] (-) TimerEvent: {}
+[4.835932] (-) TimerEvent: {}
+[4.936382] (-) TimerEvent: {}
+[5.037364] (-) TimerEvent: {}
+[5.141273] (-) TimerEvent: {}
+[5.242939] (-) TimerEvent: {}
+[5.343282] (-) TimerEvent: {}
+[5.443764] (-) TimerEvent: {}
+[5.544261] (-) TimerEvent: {}
+[5.644878] (-) TimerEvent: {}
+[5.745315] (-) TimerEvent: {}
+[5.847424] (-) TimerEvent: {}
+[5.948804] (-) TimerEvent: {}
+[6.049232] (-) TimerEvent: {}
+[6.149683] (-) TimerEvent: {}
+[6.250669] (-) TimerEvent: {}
+[6.351091] (-) TimerEvent: {}
+[6.451476] (-) TimerEvent: {}
+[6.553002] (-) TimerEvent: {}
+[6.653426] (-) TimerEvent: {}
+[6.754215] (-) TimerEvent: {}
+[6.854807] (-) TimerEvent: {}
+[6.955526] (-) TimerEvent: {}
+[7.056100] (-) TimerEvent: {}
+[7.159184] (-) TimerEvent: {}
+[7.260659] (-) TimerEvent: {}
+[7.361151] (-) TimerEvent: {}
+[7.461436] (-) TimerEvent: {}
+[7.563658] (-) TimerEvent: {}
+[7.663916] (-) TimerEvent: {}
+[7.768151] (-) TimerEvent: {}
+[7.868534] (-) TimerEvent: {}
+[7.971730] (-) TimerEvent: {}
+[8.072549] (-) TimerEvent: {}
+[8.176624] (-) TimerEvent: {}
+[8.276949] (-) TimerEvent: {}
+[8.377649] (-) TimerEvent: {}
+[8.479113] (-) TimerEvent: {}
+[8.593686] (-) TimerEvent: {}
+[8.694348] (-) TimerEvent: {}
+[8.806070] (-) TimerEvent: {}
+[8.828533] (my_world) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[8.906715] (-) TimerEvent: {}
+[9.007907] (-) TimerEvent: {}
+[9.108333] (-) TimerEvent: {}
+[9.130045] (my_world) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[9.139339] (my_world) CommandEnded: {'returncode': 0}
+[9.158930] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'install'}
+[9.166344] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cmarrod3/turtlebot3_ws/build/my_world'], 'cwd': '/home/cmarrod3/turtlebot3_ws/build/my_world', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1663'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cmarrod3/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/cmarrod3'), ('OLDPWD', '/home/cmarrod3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1444'), ('ROS_LOG_DIR', '/home/cmarrod3/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:36556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/cmarrod3/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/cmarrod3/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Robotica:@/tmp/.ICE-unix/1698,unix/Robotica:/tmp/.ICE-unix/1698'), ('INVOCATION_ID', '3710319827314f0d93ae1994cfe61a8a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c172d02_56db_442b_82d1_8a679113f53e'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmarrod3/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cmarrod3/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/cmarrod3/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic')]), 'shell': False}
+[9.174943] (my_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.175335] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive\n'}
+[9.178182] (my_world) StdoutLine: {'line': b'-- Set runtime path of "/home/cmarrod3/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""\n'}
+[9.178536] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//launch\n'}
+[9.178706] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py\n'}
+[9.178949] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models\n'}
+[9.179067] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve\n'}
+[9.179169] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model-1_4.sdf\n'}
+[9.179280] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes\n'}
+[9.179376] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes/ball_valve.dae\n'}
+[9.179957] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes/attachment.dae\n'}
+[9.180557] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials\n'}
+[9.180663] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials/textures\n'}
+[9.180885] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials/textures/Metal_Rough.png\n'}
+[9.181052] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model.config\n'}
+[9.181176] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model.sdf\n'}
+[9.181287] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye\n'}
+[9.181384] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes\n'}
+[9.181484] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseye.png\n'}
+[9.181776] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseye.dae\n'}
+[9.183650] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/old_lightskinned_female_diffuse.png\n'}
+[9.186676] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/female_elegantsuit01_diffuse.png\n'}
+[9.188020] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/female_elegantsuit01_normal.png\n'}
+[9.189212] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/tongue01_diffuse.png\n'}
+[9.190008] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseyev2.dae\n'}
+[9.193348] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/green_eye.png\n'}
+[9.194027] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/braid01_diffuse.png\n'}
+[9.195713] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/teeth.png\n'}
+[9.196926] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/model.config\n'}
+[9.197074] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/model.sdf\n'}
+[9.197186] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho.zip\n'}
+[9.203330] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world\n'}
+[9.203537] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config\n'}
+[9.203671] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf\n'}
+[9.203790] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment\n'}
+[9.203888] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/meshes\n'}
+[9.203981] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/meshes/apartment.dae\n'}
+[9.204538] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials\n'}
+[9.204671] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures\n'}
+[9.204766] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures/apartment_spec.jpg\n'}
+[9.205083] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures/apartment_diffuse.jpg\n'}
+[9.205419] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/model.config\n'}
+[9.205540] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/model.sdf\n'}
+[9.205647] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi\n'}
+[9.205742] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model-1_4.sdf\n'}
+[9.205854] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes\n'}
+[9.205949] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/lds.dae\n'}
+[9.206067] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/tire.dae\n'}
+[9.206182] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/burger_base.dae\n'}
+[9.206292] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.config\n'}
+[9.206393] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.sdf\n'}
+[9.206497] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger\n'}
+[9.206588] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf\n'}
+[9.206704] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes\n'}
+[9.206795] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae\n'}
+[9.206913] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae\n'}
+[9.207026] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[9.207139] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config\n'}
+[9.207240] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf\n'}
+[9.207345] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye\n'}
+[9.207434] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes\n'}
+[9.207525] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/young_lightskinned_female_diffuse3.png\n'}
+[9.208784] (-) TimerEvent: {}
+[9.210232] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeye.dae\n'}
+[9.211877] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeyev2.dae\n'}
+[9.215046] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/male_worksuit01_normal.png\n'}
+[9.221061] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/tongue01_diffuse.png\n'}
+[9.221789] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/male_worksuit01_diffuse.png\n'}
+[9.224307] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/short01_diffuse.png\n'}
+[9.227157] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/brown_eye.png\n'}
+[9.228089] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeye.png\n'}
+[9.228640] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/teeth.png\n'}
+[9.230412] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/eyebrow010.png\n'}
+[9.230649] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/model.config\n'}
+[9.230854] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/model.sdf\n'}
+[9.230978] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ej0vwvf0j8jk-lowpolycat\n'}
+[9.231105] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment\n'}
+[9.231204] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/meshes\n'}
+[9.231298] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/meshes/model.dae\n'}
+[9.231461] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/model.config\n'}
+[9.231571] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/model.sdf\n'}
+[9.231720] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage\n'}
+[9.231833] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_2.sdf\n'}
+[9.231944] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_3.sdf\n'}
+[9.232052] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_4.sdf\n'}
+[9.232170] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes\n'}
+[9.232274] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes/willowgarage_visual.dae\n'}
+[9.233773] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes/willowgarage_collision.dae\n'}
+[9.234752] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials\n'}
+[9.234909] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures\n'}
+[9.235031] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Wood_Bamboo_Medium_.png\n'}
+[9.235883] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Carpet_Berber_Pattern_Gray_.png\n'}
+[9.236086] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Stone_Brushed_Khaki_.png\n'}
+[9.236261] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__Wood_Bamboo_Medium_1.png\n'}
+[9.236420] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Wood_Cherry_Original_.png\n'}
+[9.236608] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__auto_12.png\n'}
+[9.236738] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__auto_2.png\n'}
+[9.236860] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model.config\n'}
+[9.237126] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model.sdf\n'}
+[9.237183] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye\n'}
+[9.237213] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes\n'}
+[9.237242] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/bob02_diffuse.png\n'}
+[9.239974] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/female_casualsuit02_normal.png\n'}
+[9.241489] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/eyebrow001.png\n'}
+[9.241667] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeye.png\n'}
+[9.242086] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/brown_eye.png\n'}
+[9.242743] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/female_casualsuit02_diffuse.png\n'}
+[9.245666] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeye.dae\n'}
+[9.252262] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeyev2.dae\n'}
+[9.258607] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/model.config\n'}
+[9.258771] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/model.sdf\n'}
+[9.258874] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball\n'}
+[9.258949] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.rsdf\n'}
+[9.258996] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.config\n'}
+[9.259024] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.sdf\n'}
+[9.259052] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho\n'}
+[9.259082] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes\n'}
+[9.259109] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_BaseColor.png\n'}
+[9.261903] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Normal.png\n'}
+[9.263990] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Roughness.png\n'}
+[9.264463] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Metallic.png\n'}
+[9.264547] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Height.png\n'}
+[9.265117] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/doguinho.dae\n'}
+[9.268520] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/model.config\n'}
+[9.268681] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/model.sdf\n'}
+[9.268749] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining\n'}
+[9.268784] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model-1_3.sdf\n'}
+[9.268835] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model-1_4.sdf\n'}
+[9.268869] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/meshes\n'}
+[9.268899] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/meshes/kitchen_dining.dae\n'}
+[9.274104] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials\n'}
+[9.274191] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures\n'}
+[9.274226] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_47.png\n'}
+[9.274335] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_44.png\n'}
+[9.274468] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_39.png\n'}
+[9.274542] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_17.png\n'}
+[9.274681] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_64.png\n'}
+[9.274827] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_43.png\n'}
+[9.274895] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_18.png\n'}
+[9.274960] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_49.png\n'}
+[9.275097] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_59.png\n'}
+[9.275206] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_21.png\n'}
+[9.275283] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_28.png\n'}
+[9.275319] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_38.png\n'}
+[9.275443] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_61.png\n'}
+[9.275518] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_9.png\n'}
+[9.275569] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_52.png\n'}
+[9.275622] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_69.png\n'}
+[9.275719] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_40.png\n'}
+[9.275802] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_1.png\n'}
+[9.275885] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_51.png\n'}
+[9.276052] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_7.png\n'}
+[9.276130] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_57.png\n'}
+[9.276240] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_14.png\n'}
+[9.276308] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_13.png\n'}
+[9.276371] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_66.png\n'}
+[9.276433] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_60.png\n'}
+[9.276514] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_50.png\n'}
+[9.276681] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_41.png\n'}
+[9.276823] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_29.png\n'}
+[9.276924] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_53.png\n'}
+[9.276961] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_24.png\n'}
+[9.276991] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_20.png\n'}
+[9.277027] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_56.png\n'}
+[9.277098] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_19.png\n'}
+[9.277180] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_16.png\n'}
+[9.277414] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_8.png\n'}
+[9.277515] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_45.png\n'}
+[9.277583] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_46.png\n'}
+[9.277733] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_2.png\n'}
+[9.277858] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_22.png\n'}
+[9.277956] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_30.png\n'}
+[9.278066] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_25.png\n'}
+[9.278114] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_42.png\n'}
+[9.278193] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model.config\n'}
+[9.278274] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model.sdf\n'}
+[9.278373] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye\n'}
+[9.278452] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes\n'}
+[9.278483] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeye.dae\n'}
+[9.279716] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/young_darkskinned_male_diffuse.png\n'}
+[9.281821] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeye.png\n'}
+[9.281929] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/eyebrow001.png\n'}
+[9.281967] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeyev2.dae\n'}
+[9.284493] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/tongue01_diffuse.png\n'}
+[9.285024] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/male_casualsuit03_diffuse.png\n'}
+[9.287639] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/male_casualsuit03_normal.png\n'}
+[9.294086] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/shoes03_diffuse.png\n'}
+[9.294409] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/brown_eye.png\n'}
+[9.294835] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/teeth.png\n'}
+[9.295988] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/model.config\n'}
+[9.296133] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/model.sdf\n'}
+[9.296253] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing\n'}
+[9.296315] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.rsdf\n'}
+[9.296347] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.config\n'}
+[9.296376] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.sdf\n'}
+[9.296404] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe\n'}
+[9.296432] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/meshes\n'}
+[9.296460] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/meshes/cafe.dae\n'}
+[9.297413] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials\n'}
+[9.297727] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures\n'}
+[9.297864] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_29.jpg\n'}
+[9.298001] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_21.jpg\n'}
+[9.298347] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_10.jpg\n'}
+[9.298453] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_26.jpg\n'}
+[9.298540] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_28.jpg\n'}
+[9.298624] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_37.jpg\n'}
+[9.298656] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_2.jpg\n'}
+[9.298690] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_35.jpg\n'}
+[9.298719] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_22.jpg\n'}
+[9.298747] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_23.jpg\n'}
+[9.298774] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_34.jpg\n'}
+[9.298802] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_24.jpg\n'}
+[9.298831] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_25.jpg\n'}
+[9.298858] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_30.jpg\n'}
+[9.298886] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_31.jpg\n'}
+[9.298913] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/model.config\n'}
+[9.298941] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/model.sdf\n'}
+[9.298967] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1\n'}
+[9.298993] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes\n'}
+[9.299019] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version3.dae\n'}
+[9.300548] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/EandM.jpg\n'}
+[9.300674] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SICK_V2_WHITE.jpg\n'}
+[9.300756] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version2.dae\n'}
+[9.300818] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_manipulation_challenge_logo.png\n'}
+[9.300875] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/dummy.png\n'}
+[9.300952] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/icra2019-poster-image.png\n'}
+[9.301006] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SCHUNK_logo.jpg\n'}
+[9.301036] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/Logo-SICK.jpg\n'}
+[9.301064] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version4.dae\n'}
+[9.303001] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version1.dae\n'}
+[9.303111] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SICK_V2.png\n'}
+[9.303148] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/rock1.JPG\n'}
+[9.304052] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/FetchLogo-1024x388.png\n'}
+[9.304439] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/Logo-TheConstruct-primario-NEW-tagline-2.jpg\n'}
+[9.304482] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/warehouse_collision.stl\n'}
+[9.304549] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/box_labels.png\n'}
+[9.304588] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/model.config\n'}
+[9.304651] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/model.sdf\n'}
+[9.304682] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world\n'}
+[9.304742] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world/burger_pi.model\n'}
+[9.304777] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world/burger.model\n'}
+[9.304836] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf\n'}
+[9.304894] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger_pi.urdf\n'}
+[9.304926] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger.urdf\n'}
+[9.304988] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/include/\n'}
+[9.305037] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world\n'}
+[9.305089] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world\n'}
+[9.305152] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh\n'}
+[9.305216] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv\n'}
+[9.305284] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh\n'}
+[9.305347] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv\n'}
+[9.305417] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash\n'}
+[9.305467] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh\n'}
+[9.305521] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh\n'}
+[9.305590] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv\n'}
+[9.305660] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/package.dsv\n'}
+[9.305743] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world\n'}
+[9.305811] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.305862] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.305894] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake\n'}
+[9.305925] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake\n'}
+[9.305956] (my_world) StdoutLine: {'line': b'-- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/package.xml\n'}
+[9.310941] (my_world) CommandEnded: {'returncode': 0}
+[9.311994] (-) TimerEvent: {}
+[9.412492] (-) TimerEvent: {}
+[9.511981] (my_world) JobEnded: {'identifier': 'my_world', 'rc': 0}
+[9.512498] (-) TimerEvent: {}
+[9.512579] (-) EventReactorShutdown: {}

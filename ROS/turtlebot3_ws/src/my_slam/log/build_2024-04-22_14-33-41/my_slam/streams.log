@@ -1,0 +1,39 @@
+[0.742s] Invoking command in '/home/cmarrod3/turtlebot3_ws/src/my_slam': PYTHONPATH=/home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/prefix_override:/home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_slam build --build-base /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/build install --record /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/install.log --single-version-externally-managed
+[0.881s] running egg_info
+[0.881s] creating build/my_slam/my_slam.egg-info
+[0.881s] writing build/my_slam/my_slam.egg-info/PKG-INFO
+[0.881s] writing dependency_links to build/my_slam/my_slam.egg-info/dependency_links.txt
+[0.881s] writing entry points to build/my_slam/my_slam.egg-info/entry_points.txt
+[0.881s] writing requirements to build/my_slam/my_slam.egg-info/requires.txt
+[0.881s] writing top-level names to build/my_slam/my_slam.egg-info/top_level.txt
+[0.882s] writing manifest file 'build/my_slam/my_slam.egg-info/SOURCES.txt'
+[0.902s] reading manifest file 'build/my_slam/my_slam.egg-info/SOURCES.txt'
+[0.903s] writing manifest file 'build/my_slam/my_slam.egg-info/SOURCES.txt'
+[0.903s] running build
+[0.903s] running build_py
+[0.904s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/build
+[0.904s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/build/lib
+[0.904s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/build/lib/my_slam
+[0.905s] copying my_slam/__init__.py -> /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/build/lib/my_slam
+[0.905s] running install
+[0.906s] running install_lib
+[0.907s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/lib/python3.8/site-packages/my_slam
+[0.907s] copying /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/build/lib/my_slam/__init__.py -> /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/lib/python3.8/site-packages/my_slam
+[0.908s] byte-compiling /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/lib/python3.8/site-packages/my_slam/__init__.py to __init__.cpython-38.pyc
+[0.909s] running install_data
+[0.909s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/ament_index
+[0.910s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/ament_index/resource_index
+[0.910s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/ament_index/resource_index/packages
+[0.910s] copying resource/my_slam -> /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/ament_index/resource_index/packages
+[0.910s] copying package.xml -> /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/my_slam
+[0.910s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/my_slam/map
+[0.911s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/my_slam/rviz
+[0.911s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/my_slam/launch
+[0.911s] copying launch/my_slam.launch.py -> /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/my_slam/launch
+[0.912s] creating /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/my_slam/config
+[0.912s] copying config/my_slam.lua -> /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/share/my_slam/config
+[0.912s] running install_egg_info
+[0.913s] Copying build/my_slam/my_slam.egg-info to /home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/lib/python3.8/site-packages/my_slam-0.0.0-py3.8.egg-info
+[0.914s] running install_scripts
+[0.925s] writing list of installed files to '/home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/install.log'
+[0.939s] Invoked command in '/home/cmarrod3/turtlebot3_ws/src/my_slam' returned '0': PYTHONPATH=/home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/prefix_override:/home/cmarrod3/turtlebot3_ws/src/my_slam/install/my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_slam build --build-base /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/build install --record /home/cmarrod3/turtlebot3_ws/src/my_slam/build/my_slam/install.log --single-version-externally-managed

@@ -1,0 +1,374 @@
+[0.102s] Invoking command in '/home/cmarrod3/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake /home/cmarrod3/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/cmarrod3/turtlebot3_ws/install/my_world
+[0.191s] -- The C compiler identification is GNU 9.4.0
+[0.248s] -- The CXX compiler identification is GNU 9.4.0
+[0.256s] -- Check for working C compiler: /usr/bin/cc
+[0.302s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.304s] -- Detecting C compiler ABI info
+[0.347s] -- Detecting C compiler ABI info - done
+[0.355s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.407s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.469s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.500s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.500s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.581s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.584s] -- Checking for module 'bullet>=2.82'
+[0.601s] --   Found bullet, version 2.88
+[0.687s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.724s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.760s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.788s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.000s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.022s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.028s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.037s] -- Searching for dependencies of ignition-math6
+[1.039s] -- Looking for OGRE...
+[1.039s] -- OGRE_PREFIX_WATCH changed.
+[1.043s] -- Checking for module 'OGRE'
+[1.052s] --   Found OGRE, version 1.9.0
+[1.075s] -- Found Ogre Ghadamon (1.9.0)
+[1.081s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.088s] -- Looking for OGRE_Paging...
+[1.092s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.093s] -- Looking for OGRE_Terrain...
+[1.097s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.097s] -- Looking for OGRE_Property...
+[1.101s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.101s] -- Looking for OGRE_RTShaderSystem...
+[1.104s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.104s] -- Looking for OGRE_Volume...
+[1.108s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.108s] -- Looking for OGRE_Overlay...
+[1.112s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.200s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.204s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.204s] -- Searching for dependencies of ignition-transport8
+[1.217s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.225s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.229s] -- Checking for module 'libzmq >= 4'
+[1.242s] --   Found libzmq , version 4.3.2
+[1.268s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.272s] -- Checking for module 'uuid'
+[1.281s] --   Found uuid, version 2.34.0
+[1.303s] -- Found UUID: TRUE  
+[1.306s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.306s] -- Searching for dependencies of ignition-msgs5
+[1.319s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.323s] -- Checking for module 'tinyxml2'
+[1.332s] --   Found tinyxml2, version 6.2.0
+[1.359s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.362s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.362s] -- Searching for dependencies of ignition-common3
+[1.363s] -- Looking for dlfcn.h - found
+[1.363s] -- Looking for libdl - found
+[1.364s] -- Found DL: TRUE  
+[1.370s] -- Searching for <ignition-common3> component [graphics]
+[1.373s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.373s] -- Searching for dependencies of ignition-common3-graphics
+[1.373s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.377s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.377s] -- Searching for dependencies of ignition-fuel_tools4
+[1.426s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.434s] -- Checking for module 'jsoncpp'
+[1.445s] --   Found jsoncpp, version 1.7.4
+[1.467s] -- Found JSONCPP: TRUE  
+[1.473s] -- Checking for module 'libzip'
+[1.482s] --   Found libzip, version 1.5.1
+[1.505s] -- Found ZIP: TRUE  
+[1.505s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.505s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.505s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.508s] -- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)
+[1.510s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.551s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.613s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.633s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.771s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.822s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.874s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.878s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.896s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.897s] -- Found Threads: TRUE  
+[2.006s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.061s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[2.072s] -- Found turtlebot3_gazebo: 2.2.4 (/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)
+[2.140s] -- Configuring done
+[2.147s] -- Generating done
+[2.148s] -- Build files have been written to: /home/cmarrod3/turtlebot3_ws/build/my_world
+[2.156s] Invoked command in '/home/cmarrod3/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake /home/cmarrod3/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/cmarrod3/turtlebot3_ws/install/my_world
+[2.157s] Invoking command in '/home/cmarrod3/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --build /home/cmarrod3/turtlebot3_ws/build/my_world -- -j2 -l2
+[2.185s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[2.306s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[8.828s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[9.130s] [100%] Built target turtlebot3_drive
+[9.139s] Invoked command in '/home/cmarrod3/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --build /home/cmarrod3/turtlebot3_ws/build/my_world -- -j2 -l2
+[9.168s] Invoking command in '/home/cmarrod3/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --install /home/cmarrod3/turtlebot3_ws/build/my_world
+[9.175s] -- Install configuration: ""
+[9.175s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[9.178s] -- Set runtime path of "/home/cmarrod3/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""
+[9.178s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//launch
+[9.179s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[9.179s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models
+[9.179s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve
+[9.179s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model-1_4.sdf
+[9.179s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes
+[9.179s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes/ball_valve.dae
+[9.180s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes/attachment.dae
+[9.180s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials
+[9.181s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials/textures
+[9.181s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials/textures/Metal_Rough.png
+[9.181s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model.config
+[9.181s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model.sdf
+[9.181s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye
+[9.181s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes
+[9.181s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseye.png
+[9.182s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseye.dae
+[9.183s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/old_lightskinned_female_diffuse.png
+[9.187s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/female_elegantsuit01_diffuse.png
+[9.188s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/female_elegantsuit01_normal.png
+[9.189s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/tongue01_diffuse.png
+[9.190s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseyev2.dae
+[9.193s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/green_eye.png
+[9.194s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/braid01_diffuse.png
+[9.196s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/teeth.png
+[9.197s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/model.config
+[9.197s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/model.sdf
+[9.197s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho.zip
+[9.203s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[9.203s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[9.204s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[9.204s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment
+[9.204s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/meshes
+[9.204s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/meshes/apartment.dae
+[9.204s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials
+[9.205s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures
+[9.205s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures/apartment_spec.jpg
+[9.205s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures/apartment_diffuse.jpg
+[9.205s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/model.config
+[9.205s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/apartment/model.sdf
+[9.205s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model-1_4.sdf
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/lds.dae
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/tire.dae
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/burger_base.dae
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.config
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.sdf
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[9.206s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes
+[9.207s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/young_lightskinned_female_diffuse3.png
+[9.210s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeye.dae
+[9.212s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeyev2.dae
+[9.215s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/male_worksuit01_normal.png
+[9.221s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/tongue01_diffuse.png
+[9.222s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/male_worksuit01_diffuse.png
+[9.224s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/short01_diffuse.png
+[9.227s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/brown_eye.png
+[9.228s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeye.png
+[9.229s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/teeth.png
+[9.230s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/eyebrow010.png
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/model.config
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/model.sdf
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ej0vwvf0j8jk-lowpolycat
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/meshes
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/meshes/model.dae
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/model.config
+[9.231s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/model.sdf
+[9.232s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage
+[9.232s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_2.sdf
+[9.232s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_3.sdf
+[9.232s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_4.sdf
+[9.232s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes
+[9.232s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes/willowgarage_visual.dae
+[9.234s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes/willowgarage_collision.dae
+[9.235s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials
+[9.235s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures
+[9.235s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Wood_Bamboo_Medium_.png
+[9.236s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Carpet_Berber_Pattern_Gray_.png
+[9.236s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Stone_Brushed_Khaki_.png
+[9.236s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__Wood_Bamboo_Medium_1.png
+[9.236s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Wood_Cherry_Original_.png
+[9.236s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__auto_12.png
+[9.237s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__auto_2.png
+[9.237s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model.config
+[9.237s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model.sdf
+[9.237s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye
+[9.237s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes
+[9.237s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/bob02_diffuse.png
+[9.240s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/female_casualsuit02_normal.png
+[9.241s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/eyebrow001.png
+[9.242s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeye.png
+[9.242s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/brown_eye.png
+[9.243s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/female_casualsuit02_diffuse.png
+[9.246s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeye.dae
+[9.252s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeyev2.dae
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/model.config
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/model.sdf
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.rsdf
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.config
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.sdf
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes
+[9.259s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_BaseColor.png
+[9.262s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Normal.png
+[9.264s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Roughness.png
+[9.264s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Metallic.png
+[9.264s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Height.png
+[9.265s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/doguinho.dae
+[9.268s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/model.config
+[9.269s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/model.sdf
+[9.269s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining
+[9.269s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model-1_3.sdf
+[9.269s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model-1_4.sdf
+[9.269s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/meshes
+[9.269s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/meshes/kitchen_dining.dae
+[9.274s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials
+[9.274s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures
+[9.274s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_47.png
+[9.274s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_44.png
+[9.274s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_39.png
+[9.274s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_17.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_64.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_43.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_18.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_49.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_59.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_21.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_28.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_38.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_61.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_9.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_52.png
+[9.275s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_69.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_40.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_1.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_51.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_7.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_57.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_14.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_13.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_66.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_60.png
+[9.276s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_50.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_41.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_29.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_53.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_24.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_20.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_56.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_19.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_16.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_8.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_45.png
+[9.277s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_46.png
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_2.png
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_22.png
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_30.png
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_25.png
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_42.png
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model.config
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model.sdf
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes
+[9.278s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeye.dae
+[9.280s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/young_darkskinned_male_diffuse.png
+[9.282s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeye.png
+[9.282s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/eyebrow001.png
+[9.282s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeyev2.dae
+[9.284s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/tongue01_diffuse.png
+[9.285s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/male_casualsuit03_diffuse.png
+[9.287s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/male_casualsuit03_normal.png
+[9.294s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/shoes03_diffuse.png
+[9.294s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/brown_eye.png
+[9.295s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/teeth.png
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/model.config
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/model.sdf
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.rsdf
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.config
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.sdf
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/meshes
+[9.296s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/meshes/cafe.dae
+[9.297s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_29.jpg
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_21.jpg
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_10.jpg
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_26.jpg
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_28.jpg
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_37.jpg
+[9.298s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_2.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_35.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_22.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_23.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_34.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_24.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_25.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_30.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_31.jpg
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/model.config
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/cafe/model.sdf
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes
+[9.299s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version3.dae
+[9.300s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/EandM.jpg
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SICK_V2_WHITE.jpg
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version2.dae
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_manipulation_challenge_logo.png
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/dummy.png
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/icra2019-poster-image.png
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SCHUNK_logo.jpg
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/Logo-SICK.jpg
+[9.301s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version4.dae
+[9.303s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version1.dae
+[9.303s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SICK_V2.png
+[9.303s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/rock1.JPG
+[9.304s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/FetchLogo-1024x388.png
+[9.304s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/Logo-TheConstruct-primario-NEW-tagline-2.jpg
+[9.304s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/warehouse_collision.stl
+[9.304s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/box_labels.png
+[9.304s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/model.config
+[9.304s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/model.sdf
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world/burger_pi.model
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger_pi.urdf
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger.urdf
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/include/
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh
+[9.305s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv
+[9.306s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/package.dsv
+[9.306s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world
+[9.306s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.306s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.306s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake
+[9.306s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake
+[9.306s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/package.xml
+[9.312s] Invoked command in '/home/cmarrod3/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/custom_interface:/home/cmarrod3/turtlebot3_ws/install/show_msg:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_service:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --install /home/cmarrod3/turtlebot3_ws/build/my_world

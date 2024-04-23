@@ -1,0 +1,150 @@
+[0.106s] Invoking command in '/home/cmarrod3/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/my_world:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --build /home/cmarrod3/turtlebot3_ws/build/my_world -- -j2 -l2
+[0.148s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.251s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.278s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.280s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.287s] -- Searching for dependencies of ignition-math6
+[0.288s] -- Looking for OGRE...
+[0.293s] -- Found Ogre Ghadamon (1.9.0)
+[0.293s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.299s] -- Looking for OGRE_Paging...
+[0.300s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.300s] -- Looking for OGRE_Terrain...
+[0.300s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.300s] -- Looking for OGRE_Property...
+[0.300s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.301s] -- Looking for OGRE_RTShaderSystem...
+[0.301s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.301s] -- Looking for OGRE_Volume...
+[0.301s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.301s] -- Looking for OGRE_Overlay...
+[0.301s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.398s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.399s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.400s] -- Searching for dependencies of ignition-transport8
+[0.414s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.424s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.429s] -- Checking for module 'libzmq >= 4'
+[0.446s] --   Found libzmq , version 4.3.2
+[0.483s] -- Checking for module 'uuid'
+[0.492s] --   Found uuid, version 2.34.0
+[0.519s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.520s] -- Searching for dependencies of ignition-msgs5
+[0.537s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.542s] -- Checking for module 'tinyxml2'
+[0.553s] --   Found tinyxml2, version 6.2.0
+[0.577s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.577s] -- Looking for ignition-common3 -- found version 3.14.2
+[0.578s] -- Searching for dependencies of ignition-common3
+[0.578s] -- Looking for dlfcn.h - found
+[0.578s] -- Looking for libdl - found
+[0.585s] -- Searching for <ignition-common3> component [graphics]
+[0.585s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[0.585s] -- Searching for dependencies of ignition-common3-graphics
+[0.586s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.587s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[0.587s] -- Searching for dependencies of ignition-fuel_tools4
+[0.608s] -- Checking for module 'jsoncpp'
+[0.620s] --   Found jsoncpp, version 1.7.4
+[0.672s] -- Checking for module 'libzip'
+[0.686s] --   Found libzip, version 1.5.1
+[0.723s] -- Looking for ignition-common3 -- found version 3.14.2
+[0.724s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.724s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.725s] -- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)
+[0.727s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.742s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.934s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.986s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.013s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.014s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.026s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.118s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.165s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[1.170s] -- Found turtlebot3_gazebo: 2.2.4 (/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)
+[1.237s] -- Configuring done
+[1.249s] -- Generating done
+[1.251s] -- Build files have been written to: /home/cmarrod3/turtlebot3_ws/build/my_world
+[1.290s] [100%] Built target turtlebot3_drive
+[1.298s] Invoked command in '/home/cmarrod3/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/my_world:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --build /home/cmarrod3/turtlebot3_ws/build/my_world -- -j2 -l2
+[1.332s] Invoking command in '/home/cmarrod3/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/my_world:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --install /home/cmarrod3/turtlebot3_ws/build/my_world
+[1.342s] -- Install configuration: ""
+[1.342s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[1.342s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//launch
+[1.343s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[1.343s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models
+[1.343s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[1.343s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[1.343s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[1.343s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin
+[1.344s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin/meshes
+[1.344s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin/meshes/bin.dae
+[1.344s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin/materials
+[1.344s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin/materials/textures
+[1.344s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin/materials/textures/bin.png
+[1.345s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin/model.config
+[1.345s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell_bin/model.sdf
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[1.345s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[1.345s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell
+[1.345s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/meshes
+[1.346s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/meshes/mesh.dae
+[1.347s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/meshes/mesh_backup.dae
+[1.348s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials
+[1.349s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures
+[1.349s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Pallet.png
+[1.350s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/RubberMat.png
+[1.351s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Plywood.png
+[1.351s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Conveyor.png
+[1.351s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/RollupDoor.png
+[1.352s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Wall_Corrugated.png
+[1.352s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Stairs.png
+[1.353s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Yellow.png
+[1.353s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Pillar.png
+[1.354s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/CardboardBoxes.png
+[1.355s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/WorkCell_Render.png
+[1.356s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Shelves.png
+[1.357s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Wall_Concrete.png
+[1.357s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/ControlPanel.png
+[1.357s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Door_Window.png
+[1.358s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/PalletWrap.png
+[1.358s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Floor.png
+[1.358s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Mesh.png
+[1.359s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/materials/textures/Bin.png
+[1.359s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/model.config
+[1.359s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//models/workcell/model.sdf
+[1.359s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world
+[1.359s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world/warehouse.world
+[1.359s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world/burger_pi.model
+[1.359s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+[1.360s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf
+[1.360s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger_pi.urdf
+[1.360s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger.urdf
+[1.360s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/include/
+[1.360s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
+[1.360s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
+[1.360s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh
+[1.360s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv
+[1.361s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh
+[1.361s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv
+[1.361s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash
+[1.361s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh
+[1.361s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh
+[1.361s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv
+[1.361s] -- Installing: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/package.dsv
+[1.361s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world
+[1.362s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.362s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.362s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake
+[1.362s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake
+[1.362s] -- Up-to-date: /home/cmarrod3/turtlebot3_ws/install/my_world/share/my_world/package.xml
+[1.365s] Invoked command in '/home/cmarrod3/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=/home/cmarrod3/turtlebot3_ws/install/turtlebot3_gazebo:/home/cmarrod3/turtlebot3_ws/install/my_world:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_simulations:/home/cmarrod3/turtlebot3_ws/install/turtlebot3_fake_node:/home/cmarrod3/turtlebot3_ws/install/my_first_subscriber:/home/cmarrod3/turtlebot3_ws/install/my_first_publisher:/home/cmarrod3/turtlebot3_ws/install/my_first_node:/opt/ros/galactic /usr/bin/cmake --install /home/cmarrod3/turtlebot3_ws/build/my_world
