@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href=http://download.ros.org/schema/package_format3.xsd schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+ <name>ros</name>
+ <version>2.1.4</version>
+ <description>
+Clothy es una aplicación web diseñada para facilitar la interacción con un robot de servicio capaz de traerte la ropa que has seleccionado. Utilizando el poderoso sistema operativo para robots, ROS (Robot Operating System), esta aplicación proporciona una interfaz intuitiva y fácil de usar para controlar las acciones del robot.
+ </description>
+ <maintainer email="dmpasgal@epsg.upv.es">Diego Medardo Pascual Galego</maintainer>
+ <license>Apache 2.0</license>
+ <url type="website">https://clothy-es.netlify.app/</url>
+ <url type="repository">https://github.com/DiegoMe11/Clothy</url>
+ <url type="bugtracker">https://github.com/DiegoMe11/Clothy</url>
+ <author email="dmpasgal@epsg.upv.es">Diego Medardo Pascual Galego</author>
+ <buildtool_depend>ament_cmake</buildtool_depend>
+ <exec_depend>proy_asun_mundo</exec_depend>
+ <exec_depend>proy_asun_nav_punto</exec_depend>
+<exec_depend>proy_asun_ruta</exec_depend>
+ <exec_depend>proy_asun_captacion</exec_depend>
+ <export>
+ <build_type>ament_cmake</build_type>
+ </export>
+</package> 
