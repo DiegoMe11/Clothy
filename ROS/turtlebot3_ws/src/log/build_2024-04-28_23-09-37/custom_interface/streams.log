@@ -1,0 +1,175 @@
+[0.465s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface -- -j4 -l4
+[0.648s] [ 10%] Built target custom_interface__rosidl_generator_c
+[0.703s] [ 12%] Built target custom_interface__cpp
+[0.728s] [ 23%] Built target custom_interface__rosidl_typesupport_c
+[0.728s] [ 33%] Built target custom_interface__rosidl_typesupport_introspection_c
+[0.756s] [ 43%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[0.780s] [ 53%] Built target custom_interface__rosidl_typesupport_cpp
+[0.801s] [ 64%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[0.830s] [ 74%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[0.869s] [ 74%] Built target custom_interface
+[0.928s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.178s] [ 76%] Built target custom_interface__py
+[2.264s] [35m[1mScanning dependencies of target custom_interface__python[0m
+[2.387s] [ 79%] [32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_distvel_s.c.o[0m
+[2.390s] [ 82%] [32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/srv/_my_move_msg_s.c.o[0m
+[2.818s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__python.so[0m
+[3.137s] [ 84%] Built target custom_interface__python
+[3.183s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_c__pyext[0m
+[3.214s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext[0m
+[3.214s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.250s] [ 87%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[3.275s] [ 89%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.278s] [ 92%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.637s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.637s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.638s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.938s] [100%] Built target custom_interface__rosidl_typesupport_c__pyext
+[3.941s] [100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[3.954s] [100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[4.221s] Invoked command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface -- -j4 -l4
+[8.411s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --install /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface
+[8.444s] -- Install configuration: ""
+[8.446s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+[8.446s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface
+[8.446s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg
+[8.447s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/distvel.h
+[8.449s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail
+[8.449s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.h
+[8.449s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.h
+[8.449s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.h
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.c
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/my_move_msg.h
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.h
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.c
+[8.450s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.h
+[8.451s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.h
+[8.454s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/library_path.sh
+[8.495s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/library_path.dsv
+[8.496s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+[8.496s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""
+[8.496s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface
+[8.496s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg
+[8.496s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail
+[8.537s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_c.h
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_c.h
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+[8.542s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_cpp.hpp
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/dds_fastrtps
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+[8.542s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg
+[8.542s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.542s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.c
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.c
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_c.h
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+[8.543s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+[8.543s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__traits.hpp
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.hpp
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__builder.hpp
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/distvel.hpp
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/my_move_msg.hpp
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.hpp
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__builder.hpp
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__traits.hpp
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg
+[8.543s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail
+[8.543s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.cpp
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_cpp.hpp
+[8.544s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv
+[8.544s] -- Up-to-date: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.cpp
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+[8.544s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+[8.544s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+[8.544s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py
+[8.982s] Compiling '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py'...
+[8.986s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg
+[8.987s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel_s.c
+[8.988s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel.py
+[8.988s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py
+[8.988s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv
+[8.989s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg_s.c
+[8.991s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/__init__.py
+[8.991s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg.py
+[8.993s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.995s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.995s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.996s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.996s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.998s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.998s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__python.so
+[9.000s] -- Set runtime path of "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/lib/libcustom_interface__python.so" to ""
+[9.001s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/msg/Distvel.idl
+[9.002s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/srv/MyMoveMsg.idl
+[9.007s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/msg/Distvel.msg
+[9.007s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/srv/MyMoveMsg.srv
+[9.011s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Request.msg
+[9.011s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Response.msg
+[9.011s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[9.019s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[9.020s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[9.020s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[9.026s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/path.sh
+[9.026s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/environment/path.dsv
+[9.026s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/local_setup.bash
+[9.026s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/local_setup.sh
+[9.027s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/local_setup.zsh
+[9.027s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/local_setup.dsv
+[9.027s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/package.dsv
+[9.027s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[9.027s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake
+[9.041s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake
+[9.041s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[9.041s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+[9.042s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.053s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[9.066s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[9.067s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.068s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.069s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.070s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[9.073s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[9.073s] -- Installing: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/custom_interface/share/custom_interface/package.xml
+[9.083s] Invoked command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --install /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface

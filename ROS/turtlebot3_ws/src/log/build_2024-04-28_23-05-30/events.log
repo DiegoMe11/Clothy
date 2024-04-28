@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000150] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.000207] (-) JobUnselected: {'identifier': 'my_slam'}
+[0.000271] (-) JobUnselected: {'identifier': 'my_world'}
+[0.000283] (-) JobUnselected: {'identifier': 'provide_map'}
+[0.000330] (-) JobUnselected: {'identifier': 'show_msg'}
+[0.000340] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000384] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000394] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000911] (-) EventReactorShutdown: {}

@@ -10,10 +10,10 @@ connect:
 	expect -c 'spawn ssh ubuntu@192.168.0.95 "turtlebot"; expect "password:"; send "$(SSH_PASSWORD)\r"; interact'
 
 start:
-	cd ROS/clothy_turtlebot/src
+	source install/setup.bash
 	ros2 launch my_world turtlebot3_my_world.launch.py
 
 colcon:	
-	cd ROS/clothy_turtlebot/src
-	colcon build --packages-select clothy_world
+	cd ROS/turtlebot3_ws/src
+	colcon build
 	source install/setup.bash

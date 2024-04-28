@@ -1,0 +1,22 @@
+[1.483s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/show_msg': AMENT_PREFIX_PATH=/home/dmpasgal/Clothy/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dmpasgal/Clothy/install/custom_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/dmpasgal/Clothy/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dmpasgal/Clothy/build/show_msg/prefix_override:/home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/show_msg build --build-base /home/dmpasgal/Clothy/build/show_msg/build install --record /home/dmpasgal/Clothy/build/show_msg/install.log --single-version-externally-managed
+[1.700s] running egg_info
+[1.700s] writing ../../../../build/show_msg/show_msg.egg-info/PKG-INFO
+[1.713s] writing dependency_links to ../../../../build/show_msg/show_msg.egg-info/dependency_links.txt
+[1.713s] writing entry points to ../../../../build/show_msg/show_msg.egg-info/entry_points.txt
+[1.713s] writing requirements to ../../../../build/show_msg/show_msg.egg-info/requires.txt
+[1.713s] writing top-level names to ../../../../build/show_msg/show_msg.egg-info/top_level.txt
+[1.746s] reading manifest file '../../../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[1.747s] writing manifest file '../../../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[1.747s] running build
+[1.747s] running build_py
+[1.748s] running install
+[1.749s] running install_lib
+[1.751s] running install_data
+[1.753s] running install_egg_info
+[1.769s] removing '/home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.781s] Copying ../../../../build/show_msg/show_msg.egg-info to /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+[1.795s] running install_scripts
+[1.820s] Installing show_msg script to /home/dmpasgal/Clothy/install/show_msg/lib/show_msg
+[1.821s] Installing show_msg_param script to /home/dmpasgal/Clothy/install/show_msg/lib/show_msg
+[1.821s] writing list of installed files to '/home/dmpasgal/Clothy/build/show_msg/install.log'
+[1.837s] Invoked command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/show_msg' returned '0': AMENT_PREFIX_PATH=/home/dmpasgal/Clothy/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dmpasgal/Clothy/install/custom_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/dmpasgal/Clothy/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dmpasgal/Clothy/build/show_msg/prefix_override:/home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/show_msg build --build-base /home/dmpasgal/Clothy/build/show_msg/build install --record /home/dmpasgal/Clothy/build/show_msg/install.log --single-version-externally-managed

@@ -1,0 +1,42 @@
+[0.953s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/my_slam': PYTHONPATH=/home/dmpasgal/Clothy/build/my_slam/prefix_override:/home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/my_slam build --build-base /home/dmpasgal/Clothy/build/my_slam/build install --record /home/dmpasgal/Clothy/build/my_slam/install.log --single-version-externally-managed
+[1.114s] running egg_info
+[1.116s] creating ../../../../build/my_slam/my_slam.egg-info
+[1.116s] writing ../../../../build/my_slam/my_slam.egg-info/PKG-INFO
+[1.116s] writing dependency_links to ../../../../build/my_slam/my_slam.egg-info/dependency_links.txt
+[1.116s] writing entry points to ../../../../build/my_slam/my_slam.egg-info/entry_points.txt
+[1.116s] writing requirements to ../../../../build/my_slam/my_slam.egg-info/requires.txt
+[1.116s] writing top-level names to ../../../../build/my_slam/my_slam.egg-info/top_level.txt
+[1.126s] writing manifest file '../../../../build/my_slam/my_slam.egg-info/SOURCES.txt'
+[1.149s] reading manifest file '../../../../build/my_slam/my_slam.egg-info/SOURCES.txt'
+[1.150s] writing manifest file '../../../../build/my_slam/my_slam.egg-info/SOURCES.txt'
+[1.150s] running build
+[1.150s] running build_py
+[1.151s] creating /home/dmpasgal/Clothy/build/my_slam/build
+[1.151s] creating /home/dmpasgal/Clothy/build/my_slam/build/lib
+[1.151s] creating /home/dmpasgal/Clothy/build/my_slam/build/lib/my_slam
+[1.151s] copying my_slam/__init__.py -> /home/dmpasgal/Clothy/build/my_slam/build/lib/my_slam
+[1.152s] running install
+[1.152s] running install_lib
+[1.153s] creating /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam
+[1.154s] copying /home/dmpasgal/Clothy/build/my_slam/build/lib/my_slam/__init__.py -> /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam
+[1.154s] byte-compiling /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam/__init__.py to __init__.cpython-38.pyc
+[1.154s] running install_data
+[1.154s] creating /home/dmpasgal/Clothy/install/my_slam/share/ament_index
+[1.154s] creating /home/dmpasgal/Clothy/install/my_slam/share/ament_index/resource_index
+[1.154s] creating /home/dmpasgal/Clothy/install/my_slam/share/ament_index/resource_index/packages
+[1.154s] copying resource/my_slam -> /home/dmpasgal/Clothy/install/my_slam/share/ament_index/resource_index/packages
+[1.154s] copying package.xml -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam
+[1.154s] creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/map
+[1.154s] copying map/my_map.pgm -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/map
+[1.159s] copying map/my_map.yaml -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/map
+[1.159s] creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/rviz
+[1.160s] copying rviz/my_slam_rviz.rviz -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/rviz
+[1.160s] creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/launch
+[1.160s] copying launch/my_slam.launch.py -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/launch
+[1.170s] creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/config
+[1.171s] copying config/my_slam.lua -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/config
+[1.178s] running install_egg_info
+[1.180s] Copying ../../../../build/my_slam/my_slam.egg-info to /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam-0.0.0-py3.8.egg-info
+[1.181s] running install_scripts
+[1.193s] writing list of installed files to '/home/dmpasgal/Clothy/build/my_slam/install.log'
+[1.211s] Invoked command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/my_slam' returned '0': PYTHONPATH=/home/dmpasgal/Clothy/build/my_slam/prefix_override:/home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/my_slam build --build-base /home/dmpasgal/Clothy/build/my_slam/build install --record /home/dmpasgal/Clothy/build/my_slam/install.log --single-version-externally-managed

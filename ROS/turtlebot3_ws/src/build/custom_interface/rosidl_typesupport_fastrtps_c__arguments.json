@@ -1,0 +1,21 @@
+{
+  "package_name": "custom_interface",
+  "output_dir": "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface/rosidl_typesupport_fastrtps_c/custom_interface",
+  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface/rosidl_adapter/custom_interface:msg/Distvel.idl",
+    "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface/rosidl_adapter/custom_interface:srv/MyMoveMsg.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface/rosidl_adapter/custom_interface/msg/Distvel.idl",
+    "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/custom_interface/rosidl_adapter/custom_interface/srv/MyMoveMsg.idl"
+  ]
+}

@@ -1,0 +1,49 @@
+[0.405s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/turtlebot3_fake_node
+[0.793s] -- The C compiler identification is GNU 9.4.0
+[1.015s] -- The CXX compiler identification is GNU 9.4.0
+[1.031s] -- Check for working C compiler: /usr/bin/cc
+[1.119s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.123s] -- Detecting C compiler ABI info
+[1.200s] -- Detecting C compiler ABI info - done
+[1.208s] -- Detecting C compile features
+[1.208s] -- Detecting C compile features - done
+[1.211s] -- Check for working CXX compiler: /usr/bin/c++
+[1.300s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.302s] -- Detecting CXX compiler ABI info
+[1.374s] -- Detecting CXX compiler ABI info - done
+[1.385s] -- Detecting CXX compile features
+[1.385s] -- Detecting CXX compile features - done
+[1.428s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.464s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.464s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.589s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.678s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.829s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.891s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.081s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[2.140s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.182s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.185s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.200s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.201s] -- Looking for pthread.h
+[2.270s] -- Looking for pthread.h - found
+[2.270s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.370s] -- Looking for pthread_create in pthreads
+[2.418s] -- Looking for pthread_create in pthreads - not found
+[2.418s] -- Looking for pthread_create in pthread
+[2.543s] -- Looking for pthread_create in pthread - found
+[2.544s] -- Found Threads: TRUE  
+[2.650s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.718s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[2.733s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[2.922s] -- Found turtlebot3_msgs: 2.2.2 (/opt/ros/galactic/share/turtlebot3_msgs/cmake)
+[3.099s] -- Configuring done
+[3.118s] -- Generating done
+[3.118s] -- Build files have been written to: /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_fake_node
+[3.128s] Invoked command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/turtlebot3_fake_node
+[3.129s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_fake_node -- -j4 -l4
+[3.177s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[3.442s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m

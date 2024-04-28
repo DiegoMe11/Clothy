@@ -1,0 +1,149 @@
+[0.519s] Invoking command in '/home/dmpasgal/Clothy/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/Clothy/install/show_msg:/home/dmpasgal/Clothy/install/provide_map:/home/dmpasgal/Clothy/install/my_slam:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/build/custom_interface -- -j4 -l4
+[0.659s] [  2%] Built target custom_interface__cpp
+[0.689s] [ 12%] Built target custom_interface__rosidl_generator_c
+[0.731s] [ 23%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[0.788s] [ 33%] Built target custom_interface__rosidl_typesupport_introspection_c
+[0.830s] [ 43%] Built target custom_interface__rosidl_typesupport_c
+[0.859s] [ 53%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[0.897s] [ 64%] Built target custom_interface__rosidl_typesupport_cpp
+[0.944s] [ 74%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[0.979s] [ 74%] Built target custom_interface
+[1.014s] [ 76%] Built target custom_interface__py
+[1.068s] [ 84%] Built target custom_interface__python
+[1.106s] [ 89%] Built target custom_interface__rosidl_typesupport_c__pyext
+[1.131s] [ 94%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[1.180s] [100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[1.265s] Invoked command in '/home/dmpasgal/Clothy/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/Clothy/install/show_msg:/home/dmpasgal/Clothy/install/provide_map:/home/dmpasgal/Clothy/install/my_slam:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/build/custom_interface -- -j4 -l4
+[1.640s] Invoking command in '/home/dmpasgal/Clothy/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/Clothy/install/show_msg:/home/dmpasgal/Clothy/install/provide_map:/home/dmpasgal/Clothy/install/my_slam:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --install /home/dmpasgal/Clothy/build/custom_interface
+[1.652s] -- Install configuration: ""
+[1.653s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+[1.653s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/distvel.h
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.h
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.h
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.h
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.c
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h
+[1.654s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv
+[1.655s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/my_move_msg.h
+[1.655s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail
+[1.655s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.h
+[1.655s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.c
+[1.655s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.h
+[1.655s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.h
+[1.655s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/library_path.sh
+[1.656s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/library_path.dsv
+[1.657s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+[1.657s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface
+[1.657s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg
+[1.658s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail
+[1.658s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_c.h
+[1.658s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.658s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv
+[1.658s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail
+[1.658s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_c.h
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_cpp.hpp
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.660s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/dds_fastrtps
+[1.661s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.c
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.c
+[1.662s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_c.h
+[1.663s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+[1.665s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+[1.665s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface
+[1.665s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg
+[1.665s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail
+[1.665s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__traits.hpp
+[1.665s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.hpp
+[1.665s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__builder.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/distvel.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/my_move_msg.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__builder.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__traits.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.cpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_cpp.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.666s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.cpp
+[1.667s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+[1.669s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+[1.669s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+[1.669s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+[1.670s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py
+[1.697s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg
+[1.698s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel_s.c
+[1.698s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel.py
+[1.698s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py
+[1.699s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv
+[1.699s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg_s.c
+[1.699s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/__init__.py
+[1.699s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg.py
+[1.701s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.702s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.704s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.706s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__python.so
+[1.707s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/msg/Distvel.idl
+[1.707s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg.idl
+[1.707s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/msg/Distvel.msg
+[1.707s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg.srv
+[1.708s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Request.msg
+[1.708s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Response.msg
+[1.708s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[1.708s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[1.708s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[1.708s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[1.709s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/path.sh
+[1.709s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/path.dsv
+[1.709s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.bash
+[1.709s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.sh
+[1.709s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.zsh
+[1.709s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.dsv
+[1.709s] -- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/package.dsv
+[1.710s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[1.713s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake
+[1.713s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake
+[1.714s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.714s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.715s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+[1.715s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.716s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake
+[1.718s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.718s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.719s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+[1.719s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.719s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+[1.719s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[1.720s] -- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/package.xml
+[2.063s] Invoked command in '/home/dmpasgal/Clothy/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/Clothy/install/show_msg:/home/dmpasgal/Clothy/install/provide_map:/home/dmpasgal/Clothy/install/my_slam:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --install /home/dmpasgal/Clothy/build/custom_interface

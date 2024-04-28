@@ -1,0 +1,16 @@
+[0.643s] Invoking command in '/home/dmpasgal/Clothy/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/Clothy/install/show_msg:/home/dmpasgal/Clothy/install/provide_map:/home/dmpasgal/Clothy/install/my_slam:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/build/turtlebot3_gazebo -- -j4 -l4
+[0.838s] [ 25%] Built target turtlebot3_drive
+[0.857s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[0.865s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[0.872s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[201.773s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KTerminado (killed) signal terminated program cc1plus
+[201.801s] compilation terminated.
+[201.803s] make[2]: *** [CMakeFiles/obstacle1.dir/build.make:63: CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o] Error 1
+[201.803s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle1.dir/all] Error 2
+[201.803s] make[1]: *** Se espera a que terminen otras tareas....
+[208.567s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[209.035s] [ 75%] Built target obstacle2
+[213.578s] [ 87%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[213.861s] [ 87%] Built target obstacles
+[213.877s] make: *** [Makefile:141: all] Error 2
+[214.105s] Invoked command in '/home/dmpasgal/Clothy/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/Clothy/install/show_msg:/home/dmpasgal/Clothy/install/provide_map:/home/dmpasgal/Clothy/install/my_slam:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/build/turtlebot3_gazebo -- -j4 -l4

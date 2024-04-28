@@ -1,0 +1,10 @@
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/install/local.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/edit_cache.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/test.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/install.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/list_install_components.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/rebuild_cache.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/turtlebot3_drive.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/install/strip.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/my_world_uninstall.dir
+/home/dmpasgal/Clothy/build/my_world/CMakeFiles/uninstall.dir

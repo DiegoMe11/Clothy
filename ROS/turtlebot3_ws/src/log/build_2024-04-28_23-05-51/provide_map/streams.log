@@ -1,0 +1,40 @@
+[0.951s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/provide_map': PYTHONPATH=/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/prefix_override:/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/provide_map build --build-base /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/build install --record /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/install.log --single-version-externally-managed
+[1.108s] running egg_info
+[1.108s] creating ../build/provide_map/provide_map.egg-info
+[1.108s] writing ../build/provide_map/provide_map.egg-info/PKG-INFO
+[1.108s] writing dependency_links to ../build/provide_map/provide_map.egg-info/dependency_links.txt
+[1.109s] writing entry points to ../build/provide_map/provide_map.egg-info/entry_points.txt
+[1.109s] writing requirements to ../build/provide_map/provide_map.egg-info/requires.txt
+[1.109s] writing top-level names to ../build/provide_map/provide_map.egg-info/top_level.txt
+[1.110s] writing manifest file '../build/provide_map/provide_map.egg-info/SOURCES.txt'
+[1.136s] reading manifest file '../build/provide_map/provide_map.egg-info/SOURCES.txt'
+[1.137s] writing manifest file '../build/provide_map/provide_map.egg-info/SOURCES.txt'
+[1.137s] running build
+[1.138s] running build_py
+[1.138s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/build
+[1.138s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/build/lib
+[1.138s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/build/lib/provide_map
+[1.138s] copying provide_map/__init__.py -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/build/lib/provide_map
+[1.138s] running install
+[1.139s] running install_lib
+[1.140s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/lib/python3.8/site-packages/provide_map
+[1.140s] copying /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/build/lib/provide_map/__init__.py -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/lib/python3.8/site-packages/provide_map
+[1.140s] byte-compiling /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/lib/python3.8/site-packages/provide_map/__init__.py to __init__.cpython-38.pyc
+[1.141s] running install_data
+[1.142s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/ament_index
+[1.142s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/ament_index/resource_index
+[1.142s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/ament_index/resource_index/packages
+[1.142s] copying resource/provide_map -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/ament_index/resource_index/packages
+[1.142s] copying package.xml -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map
+[1.143s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map/map
+[1.143s] copying map/my_map.pgm -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map/map
+[1.143s] copying map/my_map.yaml -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map/map
+[1.143s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map/rviz
+[1.143s] copying rviz/my_slam_rviz.rviz -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map/rviz
+[1.144s] creating /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map/launch
+[1.144s] copying launch/provide_map.launch.py -> /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/share/provide_map/launch
+[1.144s] running install_egg_info
+[1.145s] Copying ../build/provide_map/provide_map.egg-info to /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/lib/python3.8/site-packages/provide_map-0.0.0-py3.8.egg-info
+[1.146s] running install_scripts
+[1.159s] writing list of installed files to '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/install.log'
+[1.191s] Invoked command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/provide_map' returned '0': PYTHONPATH=/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/prefix_override:/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/provide_map build --build-base /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/build install --record /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/provide_map/install.log --single-version-externally-managed

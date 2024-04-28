@@ -1,0 +1,84 @@
+[0.313s] Invoking command in '/home/dmpasgal/Clothy/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/dmpasgal/Clothy/install/turtlebot3_fake_node
+[0.698s] -- The C compiler identification is GNU 9.4.0
+[0.895s] -- The CXX compiler identification is GNU 9.4.0
+[0.904s] -- Check for working C compiler: /usr/bin/cc
+[0.987s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.988s] -- Detecting C compiler ABI info
+[1.080s] -- Detecting C compiler ABI info - done
+[1.085s] -- Detecting C compile features
+[1.085s] -- Detecting C compile features - done
+[1.087s] -- Check for working CXX compiler: /usr/bin/c++
+[1.178s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.179s] -- Detecting CXX compiler ABI info
+[1.287s] -- Detecting CXX compiler ABI info - done
+[1.296s] -- Detecting CXX compile features
+[1.297s] -- Detecting CXX compile features - done
+[1.298s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.321s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.429s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.525s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.623s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.651s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.854s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.916s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.958s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.961s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.976s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.977s] -- Looking for pthread.h
+[2.049s] -- Looking for pthread.h - found
+[2.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.146s] -- Looking for pthread_create in pthreads
+[2.208s] -- Looking for pthread_create in pthreads - not found
+[2.208s] -- Looking for pthread_create in pthread
+[2.279s] -- Looking for pthread_create in pthread - found
+[2.279s] -- Found Threads: TRUE  
+[2.393s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.485s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[2.500s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[2.718s] -- Found turtlebot3_msgs: 2.2.2 (/opt/ros/galactic/share/turtlebot3_msgs/cmake)
+[2.852s] -- Configuring done
+[2.862s] -- Generating done
+[2.864s] -- Build files have been written to: /home/dmpasgal/Clothy/build/turtlebot3_fake_node
+[2.875s] Invoked command in '/home/dmpasgal/Clothy/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/dmpasgal/Clothy/install/turtlebot3_fake_node
+[2.878s] Invoking command in '/home/dmpasgal/Clothy/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/build/turtlebot3_fake_node -- -j4 -l4
+[2.916s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[3.170s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[37.752s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[38.132s] [100%] Built target turtlebot3_fake_node
+[40.107s] Invoked command in '/home/dmpasgal/Clothy/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/build/turtlebot3_fake_node -- -j4 -l4
+[43.778s] Invoking command in '/home/dmpasgal/Clothy/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --install /home/dmpasgal/Clothy/build/turtlebot3_fake_node
+[43.796s] -- Install configuration: ""
+[43.798s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[43.803s] -- Set runtime path of "/home/dmpasgal/Clothy/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[43.804s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[43.804s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[43.806s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[43.806s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[43.808s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[43.809s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[43.819s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[43.819s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/include/
+[43.819s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[43.819s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[43.819s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[43.823s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[43.823s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[43.823s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[43.824s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[43.824s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[43.825s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[43.825s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[43.826s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[43.827s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[43.827s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[43.828s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[43.829s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.830s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.831s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[43.832s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[43.833s] -- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[49.979s] Invoked command in '/home/dmpasgal/Clothy/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --install /home/dmpasgal/Clothy/build/turtlebot3_fake_node

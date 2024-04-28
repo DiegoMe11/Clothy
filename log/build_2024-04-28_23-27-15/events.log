@@ -1,0 +1,1255 @@
+[0.000000] (-) TimerEvent: {}
+[0.002265] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.002300] (my_slam) JobQueued: {'identifier': 'my_slam', 'dependencies': OrderedDict()}
+[0.002313] (provide_map) JobQueued: {'identifier': 'provide_map', 'dependencies': OrderedDict()}
+[0.002322] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.002330] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.002338] (my_world) JobQueued: {'identifier': 'my_world', 'dependencies': OrderedDict([('turtlebot3_gazebo', '/home/dmpasgal/Clothy/install/turtlebot3_gazebo')])}
+[0.002349] (show_msg) JobQueued: {'identifier': 'show_msg', 'dependencies': OrderedDict([('custom_interface', '/home/dmpasgal/Clothy/install/custom_interface')])}
+[0.002357] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/dmpasgal/Clothy/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/dmpasgal/Clothy/install/turtlebot3_gazebo')])}
+[0.002369] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.111185] (-) TimerEvent: {}
+[0.143854] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.220087] (-) TimerEvent: {}
+[0.272014] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.322373] (-) TimerEvent: {}
+[0.398523] (my_slam) JobStarted: {'identifier': 'my_slam'}
+[0.432430] (-) TimerEvent: {}
+[0.543245] (-) TimerEvent: {}
+[0.563584] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.564080] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/dmpasgal/Clothy/install/turtlebot3_gazebo'], 'cwd': '/home/dmpasgal/Clothy/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[0.580052] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.580176] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/custom_interface', '-DCMAKE_INSTALL_PREFIX=/home/dmpasgal/Clothy/install/custom_interface'], 'cwd': '/home/dmpasgal/Clothy/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/custom_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[0.584447] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.584660] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node', '-DCMAKE_INSTALL_PREFIX=/home/dmpasgal/Clothy/install/turtlebot3_fake_node'], 'cwd': '/home/dmpasgal/Clothy/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[0.709938] (-) TimerEvent: {}
+[0.814809] (-) TimerEvent: {}
+[0.928667] (-) TimerEvent: {}
+[0.963315] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.966796] (custom_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.969782] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.029235] (-) TimerEvent: {}
+[1.129909] (-) TimerEvent: {}
+[1.158709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.160079] (custom_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.167317] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.175869] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.176482] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.176581] (custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.230033] (-) TimerEvent: {}
+[1.252602] (custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.255387] (custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.259109] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.260438] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.272147] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.272289] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.326835] (custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.333393] (-) TimerEvent: {}
+[1.335351] (custom_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.336325] (custom_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.339194] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.348903] (my_slam) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/my_slam', 'build', '--build-base', '/home/dmpasgal/Clothy/build/my_slam/build', 'install', '--record', '/home/dmpasgal/Clothy/build/my_slam/install.log', '--single-version-externally-managed'], 'cwd': '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/my_slam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en_CA:en', 'USER': 'cmarrod3', 'LC_TIME': 'es_ES.UTF-8', 'SSH_AGENT_PID': '1656', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/dmpasgal', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'MANAGERPID': '1445', 'DBUS_STARTER_BUS_TYPE': 'session', 'ROS_LOG_DIR': '/home/dmpasgal/my_logs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'cmarrod3', 'JOURNAL_STREAM': '8:34288', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cmarrod3', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710', 'INVOCATION_ID': 'db88f86fb6824b3b9ee925b32645ba90', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '60', 'AMENT_PREFIX_PATH': '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dmpasgal/Clothy/build/my_slam', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dmpasgal/Clothy/build/my_slam/prefix_override:/home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface'}, 'shell': False}
+[1.351483] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.351552] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.351587] (custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.351627] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.351662] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.356517] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.356820] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.358730] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.425828] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.426636] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.430670] (custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.431585] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.433879] (-) TimerEvent: {}
+[1.450316] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.451119] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.511204] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.512878] (my_slam) StdoutLine: {'line': b'running egg_info\n'}
+[1.514559] (my_slam) StdoutLine: {'line': b'creating ../../../../build/my_slam/my_slam.egg-info\n'}
+[1.514746] (my_slam) StdoutLine: {'line': b'writing ../../../../build/my_slam/my_slam.egg-info/PKG-INFO\n'}
+[1.514785] (my_slam) StdoutLine: {'line': b'writing dependency_links to ../../../../build/my_slam/my_slam.egg-info/dependency_links.txt\n'}
+[1.514817] (my_slam) StdoutLine: {'line': b'writing entry points to ../../../../build/my_slam/my_slam.egg-info/entry_points.txt\n'}
+[1.514849] (my_slam) StdoutLine: {'line': b'writing requirements to ../../../../build/my_slam/my_slam.egg-info/requires.txt\n'}
+[1.514877] (my_slam) StdoutLine: {'line': b'writing top-level names to ../../../../build/my_slam/my_slam.egg-info/top_level.txt\n'}
+[1.514905] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.521496] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.522108] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.523083] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.524244] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.524330] (my_slam) StdoutLine: {'line': b"writing manifest file '../../../../build/my_slam/my_slam.egg-info/SOURCES.txt'\n"}
+[1.534217] (-) TimerEvent: {}
+[1.541690] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.541841] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.547762] (my_slam) StdoutLine: {'line': b"reading manifest file '../../../../build/my_slam/my_slam.egg-info/SOURCES.txt'\n"}
+[1.548106] (my_slam) StdoutLine: {'line': b"writing manifest file '../../../../build/my_slam/my_slam.egg-info/SOURCES.txt'\n"}
+[1.548498] (my_slam) StdoutLine: {'line': b'running build\n'}
+[1.548541] (my_slam) StdoutLine: {'line': b'running build_py\n'}
+[1.548709] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/my_slam/build\n'}
+[1.549113] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/my_slam/build/lib\n'}
+[1.549160] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/my_slam/build/lib/my_slam\n'}
+[1.549239] (my_slam) StdoutLine: {'line': b'copying my_slam/__init__.py -> /home/dmpasgal/Clothy/build/my_slam/build/lib/my_slam\n'}
+[1.550008] (my_slam) StdoutLine: {'line': b'running install\n'}
+[1.550361] (my_slam) StdoutLine: {'line': b'running install_lib\n'}
+[1.551318] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam\n'}
+[1.552240] (my_slam) StdoutLine: {'line': b'copying /home/dmpasgal/Clothy/build/my_slam/build/lib/my_slam/__init__.py -> /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam\n'}
+[1.552298] (my_slam) StdoutLine: {'line': b'byte-compiling /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam/__init__.py to __init__.cpython-38.pyc\n'}
+[1.552332] (my_slam) StdoutLine: {'line': b'running install_data\n'}
+[1.552364] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/share/ament_index\n'}
+[1.552394] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/share/ament_index/resource_index\n'}
+[1.552422] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/share/ament_index/resource_index/packages\n'}
+[1.552664] (my_slam) StdoutLine: {'line': b'copying resource/my_slam -> /home/dmpasgal/Clothy/install/my_slam/share/ament_index/resource_index/packages\n'}
+[1.552716] (my_slam) StdoutLine: {'line': b'copying package.xml -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam\n'}
+[1.552747] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/map\n'}
+[1.552776] (my_slam) StdoutLine: {'line': b'copying map/my_map.pgm -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/map\n'}
+[1.557095] (my_slam) StdoutLine: {'line': b'copying map/my_map.yaml -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/map\n'}
+[1.557898] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/rviz\n'}
+[1.558205] (my_slam) StdoutLine: {'line': b'copying rviz/my_slam_rviz.rviz -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/rviz\n'}
+[1.558599] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/launch\n'}
+[1.558878] (my_slam) StdoutLine: {'line': b'copying launch/my_slam.launch.py -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/launch\n'}
+[1.559431] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.567722] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.568507] (my_slam) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/my_slam/share/my_slam/config\n'}
+[1.568653] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.569057] (my_slam) StdoutLine: {'line': b'copying config/my_slam.lua -> /home/dmpasgal/Clothy/install/my_slam/share/my_slam/config\n'}
+[1.570350] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.576520] (my_slam) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.576884] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.577223] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.578668] (my_slam) StdoutLine: {'line': b'Copying ../../../../build/my_slam/my_slam.egg-info to /home/dmpasgal/Clothy/install/my_slam/lib/python3.8/site-packages/my_slam-0.0.0-py3.8.egg-info\n'}
+[1.579228] (my_slam) StdoutLine: {'line': b'running install_scripts\n'}
+[1.591362] (my_slam) StdoutLine: {'line': b"writing list of installed files to '/home/dmpasgal/Clothy/build/my_slam/install.log'\n"}
+[1.592953] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.593058] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.594235] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.594329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.609034] (my_slam) CommandEnded: {'returncode': 0}
+[1.636625] (-) TimerEvent: {}
+[1.700677] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.714345] (custom_interface) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.722174] (my_slam) JobEnded: {'identifier': 'my_slam', 'rc': 0}
+[1.723261] (provide_map) JobStarted: {'identifier': 'provide_map'}
+[1.731580] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.741344] (-) TimerEvent: {}
+[1.747930] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.772997] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.779273] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.793632] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.798000] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.806237] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.844520] (-) TimerEvent: {}
+[1.894794] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.908578] (custom_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.923496] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.932048] (custom_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.953365] (-) TimerEvent: {}
+[1.991363] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[2.022022] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.022285] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.054099] (-) TimerEvent: {}
+[2.063571] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[2.117205] (custom_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[2.125584] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[2.152362] (custom_interface) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.152496] (custom_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.155560] (-) TimerEvent: {}
+[2.157262] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.157790] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[2.187413] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[2.210935] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.230432] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[2.232656] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.248185] (turtlebot3_fake_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.249217] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.256442] (-) TimerEvent: {}
+[2.261670] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.261841] (custom_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.321098] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.321315] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.342843] (custom_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.343771] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.356819] (-) TimerEvent: {}
+[2.398109] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.398337] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.417795] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.418206] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.456934] (-) TimerEvent: {}
+[2.462523] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.463357] (custom_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.479866] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.480121] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.550388] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.551386] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.625818] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.625962] (-) TimerEvent: {}
+[2.643843] (custom_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[2.659111] (provide_map) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/provide_map', 'build', '--build-base', '/home/dmpasgal/Clothy/build/provide_map/build', 'install', '--record', '/home/dmpasgal/Clothy/build/provide_map/install.log', '--single-version-externally-managed'], 'cwd': '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/provide_map', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en_CA:en', 'USER': 'cmarrod3', 'LC_TIME': 'es_ES.UTF-8', 'SSH_AGENT_PID': '1656', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/dmpasgal', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'MANAGERPID': '1445', 'DBUS_STARTER_BUS_TYPE': 'session', 'ROS_LOG_DIR': '/home/dmpasgal/my_logs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'cmarrod3', 'JOURNAL_STREAM': '8:34288', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cmarrod3', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710', 'INVOCATION_ID': 'db88f86fb6824b3b9ee925b32645ba90', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '60', 'AMENT_PREFIX_PATH': '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dmpasgal/Clothy/build/provide_map', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dmpasgal/Clothy/build/provide_map/prefix_override:/home/dmpasgal/Clothy/install/provide_map/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface'}, 'shell': False}
+[2.665365] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[2.674731] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.725457] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.733251] (-) TimerEvent: {}
+[2.734011] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.747048] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.750729] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.751135] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.757060] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[2.760277] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.760731] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.772194] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)\n'}
+[2.797344] (provide_map) StdoutLine: {'line': b'running egg_info\n'}
+[2.797763] (provide_map) StdoutLine: {'line': b'creating ../../../../build/provide_map/provide_map.egg-info\n'}
+[2.797944] (provide_map) StdoutLine: {'line': b'writing ../../../../build/provide_map/provide_map.egg-info/PKG-INFO\n'}
+[2.797985] (provide_map) StdoutLine: {'line': b'writing dependency_links to ../../../../build/provide_map/provide_map.egg-info/dependency_links.txt\n'}
+[2.798041] (provide_map) StdoutLine: {'line': b'writing entry points to ../../../../build/provide_map/provide_map.egg-info/entry_points.txt\n'}
+[2.798077] (provide_map) StdoutLine: {'line': b'writing requirements to ../../../../build/provide_map/provide_map.egg-info/requires.txt\n'}
+[2.798112] (provide_map) StdoutLine: {'line': b'writing top-level names to ../../../../build/provide_map/provide_map.egg-info/top_level.txt\n'}
+[2.798909] (provide_map) StdoutLine: {'line': b"writing manifest file '../../../../build/provide_map/provide_map.egg-info/SOURCES.txt'\n"}
+[2.803250] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.819760] (provide_map) StdoutLine: {'line': b"reading manifest file '../../../../build/provide_map/provide_map.egg-info/SOURCES.txt'\n"}
+[2.821901] (provide_map) StdoutLine: {'line': b"writing manifest file '../../../../build/provide_map/provide_map.egg-info/SOURCES.txt'\n"}
+[2.822142] (provide_map) StdoutLine: {'line': b'running build\n'}
+[2.822272] (provide_map) StdoutLine: {'line': b'running build_py\n'}
+[2.822364] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/provide_map/build\n'}
+[2.822402] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/provide_map/build/lib\n'}
+[2.822471] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/provide_map/build/lib/provide_map\n'}
+[2.822505] (provide_map) StdoutLine: {'line': b'copying provide_map/__init__.py -> /home/dmpasgal/Clothy/build/provide_map/build/lib/provide_map\n'}
+[2.822536] (provide_map) StdoutLine: {'line': b'running install\n'}
+[2.822565] (provide_map) StdoutLine: {'line': b'running install_lib\n'}
+[2.823317] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/provide_map/lib/python3.8/site-packages/provide_map\n'}
+[2.823404] (provide_map) StdoutLine: {'line': b'copying /home/dmpasgal/Clothy/build/provide_map/build/lib/provide_map/__init__.py -> /home/dmpasgal/Clothy/install/provide_map/lib/python3.8/site-packages/provide_map\n'}
+[2.823585] (provide_map) StdoutLine: {'line': b'byte-compiling /home/dmpasgal/Clothy/install/provide_map/lib/python3.8/site-packages/provide_map/__init__.py to __init__.cpython-38.pyc\n'}
+[2.825040] (provide_map) StdoutLine: {'line': b'running install_data\n'}
+[2.825588] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/provide_map/share/ament_index\n'}
+[2.825714] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/provide_map/share/ament_index/resource_index\n'}
+[2.825880] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/provide_map/share/ament_index/resource_index/packages\n'}
+[2.826017] (provide_map) StdoutLine: {'line': b'copying resource/provide_map -> /home/dmpasgal/Clothy/install/provide_map/share/ament_index/resource_index/packages\n'}
+[2.826077] (provide_map) StdoutLine: {'line': b'copying package.xml -> /home/dmpasgal/Clothy/install/provide_map/share/provide_map\n'}
+[2.826110] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/provide_map/share/provide_map/map\n'}
+[2.826141] (provide_map) StdoutLine: {'line': b'copying map/my_map.pgm -> /home/dmpasgal/Clothy/install/provide_map/share/provide_map/map\n'}
+[2.826504] (provide_map) StdoutLine: {'line': b'copying map/my_map.yaml -> /home/dmpasgal/Clothy/install/provide_map/share/provide_map/map\n'}
+[2.826952] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/provide_map/share/provide_map/rviz\n'}
+[2.827016] (provide_map) StdoutLine: {'line': b'copying rviz/my_slam_rviz.rviz -> /home/dmpasgal/Clothy/install/provide_map/share/provide_map/rviz\n'}
+[2.827602] (provide_map) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/provide_map/share/provide_map/launch\n'}
+[2.827697] (provide_map) StdoutLine: {'line': b'copying launch/provide_map.launch.py -> /home/dmpasgal/Clothy/install/provide_map/share/provide_map/launch\n'}
+[2.828094] (provide_map) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.829397] (provide_map) StdoutLine: {'line': b'Copying ../../../../build/provide_map/provide_map.egg-info to /home/dmpasgal/Clothy/install/provide_map/lib/python3.8/site-packages/provide_map-0.0.0-py3.8.egg-info\n'}
+[2.829846] (provide_map) StdoutLine: {'line': b'running install_scripts\n'}
+[2.835153] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[2.835286] (-) TimerEvent: {}
+[2.842119] (provide_map) StdoutLine: {'line': b"writing list of installed files to '/home/dmpasgal/Clothy/build/provide_map/install.log'\n"}
+[2.860736] (provide_map) CommandEnded: {'returncode': 0}
+[2.900780] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.900989] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.901130] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.909405] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.909550] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.910397] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.910461] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.915391] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.915476] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.923422] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.924188] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.934110] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.934241] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.934361] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.945703] (-) TimerEvent: {}
+[2.958717] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.984804] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.988482] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.989946] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.2 (/opt/ros/galactic/share/turtlebot3_msgs/cmake)\n'}
+[2.993530] (custom_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[2.995649] (provide_map) JobEnded: {'identifier': 'provide_map', 'rc': 0}
+[3.017334] (custom_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.017484] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.017524] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.017557] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.030198] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.033660] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[3.034068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.037336] (custom_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.047055] (-) TimerEvent: {}
+[3.049109] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[3.057938] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.063754] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.085742] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[3.090118] (custom_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.093818] (custom_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.096243] (custom_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.109967] (custom_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.123570] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.133217] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.134171] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Generating done\n'}
+[3.136077] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Build files have been written to: /home/dmpasgal/Clothy/build/turtlebot3_fake_node\n'}
+[3.140869] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.146724] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[3.147997] (-) TimerEvent: {}
+[3.149657] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'build'}
+[3.149740] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dmpasgal/Clothy/build/turtlebot3_fake_node', '--', '-j4', '-l4'], 'cwd': '/home/dmpasgal/Clothy/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[3.151002] (custom_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[3.151238] (custom_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dmpasgal/Clothy/build/custom_interface\n'}
+[3.159493] (custom_interface) CommandEnded: {'returncode': 0}
+[3.160650] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[3.160716] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dmpasgal/Clothy/build/custom_interface', '--', '-j4', '-l4'], 'cwd': '/home/dmpasgal/Clothy/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/custom_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[3.161406] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[3.187902] (turtlebot3_fake_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_fake_node\x1b[0m\n'}
+[3.196753] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.200153] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__cpp\x1b[0m\n'}
+[3.201303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.201746] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.203502] (custom_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.218110] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.218494] (custom_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.223505] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.249904] (-) TimerEvent: {}
+[3.255836] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[3.313164] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.316125] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.316889] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.317028] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.317813] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.318969] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.330370] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.333677] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[3.334275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.334374] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.339707] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[3.341524] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.362286] (-) TimerEvent: {}
+[3.434377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.442363] (turtlebot3_fake_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o\x1b[0m\n'}
+[3.443335] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.455175] (custom_interface) StdoutLine: {'line': b'[  5%] Built target custom_interface__cpp\n'}
+[3.462635] (-) TimerEvent: {}
+[3.464072] (custom_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.470902] (custom_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.471444] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.474034] (custom_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.502625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.519446] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.562897] (-) TimerEvent: {}
+[3.602828] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.663452] (-) TimerEvent: {}
+[3.680794] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.695079] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.695427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.695761] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.696133] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.700733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)\n'}
+[3.703697] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[3.711979] (custom_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/distvel__type_support.cpp.o\x1b[0m\n'}
+[3.723124] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_generator_c\x1b[0m\n'}
+[3.738506] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.752807] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[3.756498] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.756870] (custom_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/distvel__functions.c.o\x1b[0m\n'}
+[3.765188] (-) TimerEvent: {}
+[3.785442] (custom_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/distvel__type_support.cpp.o\x1b[0m\n'}
+[3.809586] (custom_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/srv/detail/my_move_msg__functions.c.o\x1b[0m\n'}
+[3.853636] (custom_interface) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.890526] (-) TimerEvent: {}
+[3.897472] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.900565] (custom_interface) StdoutLine: {'line': b'[ 25%] Built target custom_interface__rosidl_generator_c\n'}
+[3.919548] (custom_interface) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/srv/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[3.926662] (custom_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/distvel__type_support.cpp.o\x1b[0m\n'}
+[3.984848] (custom_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/srv/detail/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[3.989250] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.010793] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[4.010956] (-) TimerEvent: {}
+[4.088342] (custom_interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.122682] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.122896] (-) TimerEvent: {}
+[4.177971] (custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/srv/detail/dds_fastrtps/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[4.191091] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[4.241459] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[4.241599] (-) TimerEvent: {}
+[4.286138] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[4.288654] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[4.302909] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.304328] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.353392] (custom_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.353533] (-) TimerEvent: {}
+[4.403554] (custom_interface) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.418580] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[4.457159] (custom_interface) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.457316] (-) TimerEvent: {}
+[4.457458] (custom_interface) StdoutLine: {'line': b'[ 46%] Built target custom_interface__rosidl_typesupport_introspection_cpp\n'}
+[4.475335] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.478315] (custom_interface) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.479915] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[4.509783] (custom_interface) StdoutLine: {'line': b'[ 48%] Built target custom_interface__rosidl_typesupport_cpp\n'}
+[4.518929] (custom_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/distvel__type_support.c.o\x1b[0m\n'}
+[4.533058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.545139] (custom_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/srv/detail/my_move_msg__type_support.c.o\x1b[0m\n'}
+[4.555212] (custom_interface) StdoutLine: {'line': b'[ 53%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.559717] (-) TimerEvent: {}
+[4.566917] (custom_interface) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.591674] (custom_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.614473] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[4.616469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/dmpasgal/Clothy/build/turtlebot3_gazebo\n'}
+[4.629608] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[4.630753] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[4.630798] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dmpasgal/Clothy/build/turtlebot3_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/dmpasgal/Clothy/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[4.667030] (-) TimerEvent: {}
+[4.694163] (custom_interface) StdoutLine: {'line': b'[ 58%] Built target custom_interface__rosidl_typesupport_introspection_c\n'}
+[4.705382] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacles\x1b[0m\n'}
+[4.726291] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle2\x1b[0m\n'}
+[4.747725] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[4.748882] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle1\x1b[0m\n'}
+[4.777318] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_c\x1b[0m\n'}
+[4.777572] (-) TimerEvent: {}
+[4.802518] (custom_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/distvel__type_support.cpp.o\x1b[0m\n'}
+[4.803468] (custom_interface) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/srv/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[4.811835] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[4.834345] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.869761] (custom_interface) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/srv/detail/my_move_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.982528] (custom_interface) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.982673] (-) TimerEvent: {}
+[5.025963] (custom_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/distvel__type_support_c.cpp.o\x1b[0m\n'}
+[5.124104] (-) TimerEvent: {}
+[5.134983] (custom_interface) StdoutLine: {'line': b'[ 71%] Built target custom_interface__rosidl_typesupport_c\n'}
+[5.141939] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[5.223111] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[5.228195] (-) TimerEvent: {}
+[5.238187] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[5.536078] (custom_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.536232] (-) TimerEvent: {}
+[5.977464] (-) TimerEvent: {}
+[5.994363] (custom_interface) StdoutLine: {'line': b'[ 74%] Built target custom_interface__rosidl_typesupport_fastrtps_c\n'}
+[6.018143] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface\x1b[0m\n'}
+[6.123622] (-) TimerEvent: {}
+[6.662497] (-) TimerEvent: {}
+[6.764027] (-) TimerEvent: {}
+[6.865860] (-) TimerEvent: {}
+[6.978245] (-) TimerEvent: {}
+[7.005634] (custom_interface) StdoutLine: {'line': b'[ 74%] Built target custom_interface\n'}
+[7.082300] (-) TimerEvent: {}
+[7.104513] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__py\x1b[0m\n'}
+[7.114880] (custom_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.183715] (-) TimerEvent: {}
+[7.285319] (-) TimerEvent: {}
+[7.641399] (-) TimerEvent: {}
+[7.743027] (-) TimerEvent: {}
+[7.846241] (-) TimerEvent: {}
+[7.977639] (-) TimerEvent: {}
+[8.078303] (-) TimerEvent: {}
+[8.305284] (-) TimerEvent: {}
+[8.405990] (-) TimerEvent: {}
+[8.507700] (-) TimerEvent: {}
+[8.645094] (-) TimerEvent: {}
+[8.871581] (-) TimerEvent: {}
+[8.997487] (-) TimerEvent: {}
+[9.099260] (-) TimerEvent: {}
+[9.218139] (-) TimerEvent: {}
+[9.343294] (-) TimerEvent: {}
+[9.444249] (-) TimerEvent: {}
+[9.545342] (-) TimerEvent: {}
+[9.646176] (-) TimerEvent: {}
+[9.749985] (-) TimerEvent: {}
+[9.853837] (-) TimerEvent: {}
+[9.955513] (-) TimerEvent: {}
+[10.056046] (-) TimerEvent: {}
+[10.173135] (-) TimerEvent: {}
+[10.283535] (-) TimerEvent: {}
+[10.384153] (-) TimerEvent: {}
+[10.486081] (-) TimerEvent: {}
+[10.589435] (-) TimerEvent: {}
+[10.690814] (-) TimerEvent: {}
+[10.791528] (-) TimerEvent: {}
+[10.895414] (-) TimerEvent: {}
+[10.996204] (-) TimerEvent: {}
+[11.096920] (-) TimerEvent: {}
+[11.197608] (-) TimerEvent: {}
+[11.298235] (-) TimerEvent: {}
+[11.398750] (-) TimerEvent: {}
+[11.499240] (-) TimerEvent: {}
+[11.600002] (-) TimerEvent: {}
+[11.700901] (-) TimerEvent: {}
+[11.801749] (-) TimerEvent: {}
+[11.902979] (-) TimerEvent: {}
+[12.003399] (-) TimerEvent: {}
+[12.104056] (-) TimerEvent: {}
+[12.205029] (-) TimerEvent: {}
+[12.305806] (-) TimerEvent: {}
+[12.406371] (-) TimerEvent: {}
+[12.519272] (-) TimerEvent: {}
+[12.620276] (-) TimerEvent: {}
+[12.722166] (-) TimerEvent: {}
+[12.825094] (-) TimerEvent: {}
+[12.932147] (-) TimerEvent: {}
+[13.033264] (-) TimerEvent: {}
+[13.134918] (-) TimerEvent: {}
+[13.256614] (-) TimerEvent: {}
+[13.360321] (-) TimerEvent: {}
+[13.464400] (-) TimerEvent: {}
+[13.568088] (-) TimerEvent: {}
+[13.669538] (-) TimerEvent: {}
+[13.773524] (-) TimerEvent: {}
+[13.878383] (-) TimerEvent: {}
+[13.980596] (-) TimerEvent: {}
+[14.080952] (-) TimerEvent: {}
+[14.182086] (-) TimerEvent: {}
+[14.284091] (-) TimerEvent: {}
+[14.394039] (-) TimerEvent: {}
+[14.495076] (-) TimerEvent: {}
+[14.596931] (-) TimerEvent: {}
+[14.698060] (-) TimerEvent: {}
+[14.807668] (-) TimerEvent: {}
+[14.910544] (-) TimerEvent: {}
+[15.018694] (-) TimerEvent: {}
+[15.120353] (-) TimerEvent: {}
+[15.224237] (-) TimerEvent: {}
+[15.327417] (-) TimerEvent: {}
+[15.431523] (-) TimerEvent: {}
+[15.536138] (-) TimerEvent: {}
+[15.641463] (-) TimerEvent: {}
+[15.742783] (-) TimerEvent: {}
+[15.843693] (-) TimerEvent: {}
+[15.947257] (-) TimerEvent: {}
+[16.048121] (-) TimerEvent: {}
+[16.150819] (-) TimerEvent: {}
+[16.251862] (-) TimerEvent: {}
+[16.393008] (-) TimerEvent: {}
+[16.495794] (-) TimerEvent: {}
+[16.596827] (-) TimerEvent: {}
+[16.699620] (-) TimerEvent: {}
+[16.802609] (-) TimerEvent: {}
+[16.907248] (-) TimerEvent: {}
+[17.008779] (-) TimerEvent: {}
+[17.110972] (-) TimerEvent: {}
+[17.217987] (-) TimerEvent: {}
+[17.322036] (-) TimerEvent: {}
+[17.424033] (-) TimerEvent: {}
+[17.526596] (-) TimerEvent: {}
+[17.627318] (-) TimerEvent: {}
+[17.728937] (-) TimerEvent: {}
+[17.830129] (-) TimerEvent: {}
+[17.931839] (-) TimerEvent: {}
+[18.032216] (-) TimerEvent: {}
+[18.081450] (custom_interface) StdoutLine: {'line': b'[ 76%] Built target custom_interface__py\n'}
+[19.046314] (-) TimerEvent: {}
+[19.049039] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__python\x1b[0m\n'}
+[19.146830] (-) TimerEvent: {}
+[19.170100] (custom_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_distvel_s.c.o\x1b[0m\n'}
+[19.171053] (custom_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/srv/_my_move_msg_s.c.o\x1b[0m\n'}
+[19.248481] (-) TimerEvent: {}
+[19.360108] (-) TimerEvent: {}
+[19.462721] (-) TimerEvent: {}
+[19.822290] (-) TimerEvent: {}
+[19.928154] (-) TimerEvent: {}
+[20.031556] (-) TimerEvent: {}
+[20.134907] (-) TimerEvent: {}
+[20.235751] (-) TimerEvent: {}
+[20.341620] (-) TimerEvent: {}
+[20.444124] (-) TimerEvent: {}
+[20.544779] (-) TimerEvent: {}
+[20.672437] (-) TimerEvent: {}
+[20.779891] (-) TimerEvent: {}
+[20.881429] (-) TimerEvent: {}
+[20.983096] (-) TimerEvent: {}
+[21.091298] (-) TimerEvent: {}
+[21.191661] (-) TimerEvent: {}
+[21.299088] (-) TimerEvent: {}
+[21.400370] (-) TimerEvent: {}
+[21.501491] (-) TimerEvent: {}
+[21.603467] (-) TimerEvent: {}
+[21.704175] (-) TimerEvent: {}
+[21.807609] (-) TimerEvent: {}
+[21.913044] (-) TimerEvent: {}
+[22.015669] (-) TimerEvent: {}
+[22.119221] (-) TimerEvent: {}
+[22.221446] (-) TimerEvent: {}
+[22.323078] (-) TimerEvent: {}
+[22.427318] (-) TimerEvent: {}
+[22.528918] (-) TimerEvent: {}
+[22.630414] (-) TimerEvent: {}
+[22.731208] (-) TimerEvent: {}
+[22.841565] (-) TimerEvent: {}
+[22.943210] (-) TimerEvent: {}
+[23.056899] (-) TimerEvent: {}
+[23.157708] (-) TimerEvent: {}
+[23.260354] (-) TimerEvent: {}
+[23.363801] (-) TimerEvent: {}
+[23.464222] (-) TimerEvent: {}
+[23.580216] (-) TimerEvent: {}
+[23.699965] (-) TimerEvent: {}
+[23.818254] (-) TimerEvent: {}
+[24.009653] (-) TimerEvent: {}
+[24.146769] (-) TimerEvent: {}
+[24.356568] (-) TimerEvent: {}
+[24.658291] (-) TimerEvent: {}
+[24.760068] (-) TimerEvent: {}
+[25.098585] (-) TimerEvent: {}
+[25.237786] (-) TimerEvent: {}
+[25.339476] (-) TimerEvent: {}
+[25.440081] (-) TimerEvent: {}
+[25.540722] (-) TimerEvent: {}
+[25.641321] (-) TimerEvent: {}
+[25.750142] (-) TimerEvent: {}
+[25.851027] (-) TimerEvent: {}
+[25.951904] (-) TimerEvent: {}
+[26.061082] (-) TimerEvent: {}
+[26.162281] (-) TimerEvent: {}
+[26.264446] (-) TimerEvent: {}
+[26.365794] (-) TimerEvent: {}
+[26.466440] (-) TimerEvent: {}
+[26.585024] (-) TimerEvent: {}
+[26.688275] (-) TimerEvent: {}
+[26.788944] (-) TimerEvent: {}
+[26.900885] (-) TimerEvent: {}
+[27.001701] (-) TimerEvent: {}
+[27.104772] (-) TimerEvent: {}
+[27.206848] (-) TimerEvent: {}
+[27.307947] (-) TimerEvent: {}
+[27.409372] (-) TimerEvent: {}
+[27.535279] (-) TimerEvent: {}
+[27.640600] (-) TimerEvent: {}
+[27.741390] (-) TimerEvent: {}
+[27.848305] (-) TimerEvent: {}
+[27.950722] (-) TimerEvent: {}
+[28.053933] (-) TimerEvent: {}
+[28.159577] (-) TimerEvent: {}
+[28.260717] (-) TimerEvent: {}
+[28.393565] (-) TimerEvent: {}
+[28.494475] (-) TimerEvent: {}
+[28.599360] (-) TimerEvent: {}
+[28.711618] (-) TimerEvent: {}
+[28.849041] (-) TimerEvent: {}
+[28.950378] (-) TimerEvent: {}
+[29.054477] (-) TimerEvent: {}
+[29.182527] (-) TimerEvent: {}
+[29.284462] (-) TimerEvent: {}
+[29.385360] (-) TimerEvent: {}
+[29.486936] (-) TimerEvent: {}
+[29.591595] (-) TimerEvent: {}
+[29.696369] (-) TimerEvent: {}
+[29.923806] (-) TimerEvent: {}
+[30.024457] (-) TimerEvent: {}
+[30.193371] (-) TimerEvent: {}
+[30.299301] (-) TimerEvent: {}
+[30.403174] (-) TimerEvent: {}
+[30.507981] (-) TimerEvent: {}
+[30.609598] (-) TimerEvent: {}
+[30.715180] (-) TimerEvent: {}
+[30.815628] (-) TimerEvent: {}
+[30.918263] (-) TimerEvent: {}
+[31.019297] (-) TimerEvent: {}
+[31.122098] (-) TimerEvent: {}
+[31.223930] (-) TimerEvent: {}
+[31.325068] (-) TimerEvent: {}
+[31.427581] (-) TimerEvent: {}
+[31.530917] (-) TimerEvent: {}
+[31.632224] (-) TimerEvent: {}
+[31.734142] (-) TimerEvent: {}
+[31.837164] (-) TimerEvent: {}
+[31.938392] (-) TimerEvent: {}
+[32.047510] (-) TimerEvent: {}
+[32.149280] (-) TimerEvent: {}
+[32.252708] (-) TimerEvent: {}
+[32.357389] (-) TimerEvent: {}
+[32.460309] (-) TimerEvent: {}
+[32.564642] (-) TimerEvent: {}
+[32.690010] (-) TimerEvent: {}
+[32.802503] (-) TimerEvent: {}
+[32.907427] (-) TimerEvent: {}
+[33.009368] (-) TimerEvent: {}
+[33.111288] (-) TimerEvent: {}
+[33.213358] (-) TimerEvent: {}
+[33.315122] (-) TimerEvent: {}
+[33.418319] (-) TimerEvent: {}
+[33.779841] (-) TimerEvent: {}
+[34.609479] (-) TimerEvent: {}
+[34.730111] (-) TimerEvent: {}
+[35.494154] (-) TimerEvent: {}
+[35.596151] (-) TimerEvent: {}
+[35.697206] (-) TimerEvent: {}
+[35.798508] (-) TimerEvent: {}
+[35.902421] (-) TimerEvent: {}
+[35.947405] (custom_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__python.so\x1b[0m\n'}
+[36.002577] (-) TimerEvent: {}
+[36.103092] (-) TimerEvent: {}
+[36.162293] (custom_interface) StdoutLine: {'line': b'[ 84%] Built target custom_interface__python\n'}
+[36.205373] (-) TimerEvent: {}
+[36.229434] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[36.306274] (-) TimerEvent: {}
+[36.326399] (custom_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[36.406671] (-) TimerEvent: {}
+[36.507775] (-) TimerEvent: {}
+[36.602397] (custom_interface) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[36.611381] (-) TimerEvent: {}
+[36.665434] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[36.677634] (custom_interface) StdoutLine: {'line': b'[ 89%] Built target custom_interface__rosidl_typesupport_c__pyext\n'}
+[36.711134] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[36.715823] (-) TimerEvent: {}
+[36.757419] (custom_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[36.817136] (-) TimerEvent: {}
+[36.898397] (custom_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[36.921247] (-) TimerEvent: {}
+[37.024424] (-) TimerEvent: {}
+[37.138644] (-) TimerEvent: {}
+[37.201190] (custom_interface) StdoutLine: {'line': b'[ 94%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[37.294372] (-) TimerEvent: {}
+[37.310817] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[37.335237] (custom_interface) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[37.336966] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] Built target turtlebot3_drive\n'}
+[37.394723] (-) TimerEvent: {}
+[37.404480] (custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[37.454705] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[37.494936] (-) TimerEvent: {}
+[37.577723] (custom_interface) CommandEnded: {'returncode': 0}
+[37.649533] (-) TimerEvent: {}
+[37.760025] (-) TimerEvent: {}
+[37.861250] (-) TimerEvent: {}
+[37.915911] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'install'}
+[37.972398] (-) TimerEvent: {}
+[38.015184] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_fake_node\x1b[0m\n'}
+[38.036660] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dmpasgal/Clothy/build/custom_interface'], 'cwd': '/home/dmpasgal/Clothy/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/custom_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[38.075572] (-) TimerEvent: {}
+[38.111083] (custom_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.117365] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface\n'}
+[38.117973] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface\n'}
+[38.118411] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg\n'}
+[38.118535] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/distvel.h\n'}
+[38.119148] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail\n'}
+[38.119624] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.h\n'}
+[38.119713] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.h\n'}
+[38.119755] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.h\n'}
+[38.119898] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.c\n'}
+[38.120941] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[38.121199] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv\n'}
+[38.121341] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/my_move_msg.h\n'}
+[38.121827] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail\n'}
+[38.121902] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.h\n'}
+[38.122054] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.c\n'}
+[38.122678] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.h\n'}
+[38.122743] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.h\n'}
+[38.126484] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/library_path.sh\n'}
+[38.127762] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/library_path.dsv\n'}
+[38.128315] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so\n'}
+[38.128746] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""\n'}
+[38.128873] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface\n'}
+[38.129082] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg\n'}
+[38.130073] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail\n'}
+[38.130951] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_c.h\n'}
+[38.131672] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[38.132463] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv\n'}
+[38.133375] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail\n'}
+[38.133743] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[38.134486] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[38.134697] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[38.134834] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface\n'}
+[38.135420] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg\n'}
+[38.135964] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[38.136499] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail\n'}
+[38.137204] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps\n'}
+[38.137779] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[38.138699] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv\n'}
+[38.139960] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail\n'}
+[38.140415] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[38.141297] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/dds_fastrtps\n'}
+[38.142003] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[38.142187] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[38.142322] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface\n'}
+[38.143131] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg\n'}
+[38.143830] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[38.144553] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail\n'}
+[38.145280] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.c\n'}
+[38.146029] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h\n'}
+[38.146797] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv\n'}
+[38.147403] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail\n'}
+[38.147805] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.c\n'}
+[38.148486] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_c.h\n'}
+[38.149428] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so\n'}
+[38.150233] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[38.150296] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so\n'}
+[38.150500] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""\n'}
+[38.150637] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface\n'}
+[38.151398] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg\n'}
+[38.151848] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail\n'}
+[38.152943] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__traits.hpp\n'}
+[38.153631] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.hpp\n'}
+[38.154874] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__builder.hpp\n'}
+[38.155481] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/distvel.hpp\n'}
+[38.156382] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv\n'}
+[38.157091] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/my_move_msg.hpp\n'}
+[38.159353] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail\n'}
+[38.159759] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.hpp\n'}
+[38.160436] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__builder.hpp\n'}
+[38.161273] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__traits.hpp\n'}
+[38.162575] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface\n'}
+[38.163148] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg\n'}
+[38.163687] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail\n'}
+[38.164244] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.cpp\n'}
+[38.165001] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[38.165929] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv\n'}
+[38.166873] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail\n'}
+[38.167350] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[38.168062] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.cpp\n'}
+[38.169009] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[38.170751] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[38.171008] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so\n'}
+[38.172873] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[38.173111] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/pythonpath.sh\n'}
+[38.174916] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/pythonpath.dsv\n'}
+[38.175866] (-) TimerEvent: {}
+[38.176348] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py\n'}
+[38.277087] (-) TimerEvent: {}
+[38.348878] (custom_interface) StdoutLine: {'line': b"Compiling '/home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py'...\n"}
+[38.357029] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg\n'}
+[38.357171] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel_s.c\n'}
+[38.357469] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel.py\n'}
+[38.358044] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py\n'}
+[38.359533] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv\n'}
+[38.359660] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg_s.c\n'}
+[38.359708] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/__init__.py\n'}
+[38.360517] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg.py\n'}
+[38.361189] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[38.363389] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[38.363491] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[38.363528] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[38.363560] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[38.363593] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[38.363629] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__python.so\n'}
+[38.363659] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/custom_interface/lib/libcustom_interface__python.so" to ""\n'}
+[38.368251] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/msg/Distvel.idl\n'}
+[38.370318] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg.idl\n'}
+[38.374798] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/msg/Distvel.msg\n'}
+[38.376305] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg.srv\n'}
+[38.377864] (-) TimerEvent: {}
+[38.378043] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Request.msg\n'}
+[38.378460] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Response.msg\n'}
+[38.379947] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface\n'}
+[38.382272] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface\n'}
+[38.389282] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh\n'}
+[38.389726] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv\n'}
+[38.390188] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/path.sh\n'}
+[38.390842] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/environment/path.dsv\n'}
+[38.391591] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.bash\n'}
+[38.392171] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.sh\n'}
+[38.392933] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.zsh\n'}
+[38.393314] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/local_setup.dsv\n'}
+[38.393803] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/package.dsv\n'}
+[38.394791] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/ament_index/resource_index/packages/custom_interface\n'}
+[38.396807] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake\n'}
+[38.397230] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[38.397851] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[38.398645] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[38.399265] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake\n'}
+[38.399762] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[38.400380] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake\n'}
+[38.401585] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[38.402305] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[38.402841] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake\n'}
+[38.403316] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[38.403959] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[38.404392] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] Built target turtlebot3_fake_node\n'}
+[38.405287] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.406506] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.409194] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[38.410580] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[38.412011] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[38.413767] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[38.419286] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake\n'}
+[38.420565] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake\n'}
+[38.421822] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/custom_interface/share/custom_interface/package.xml\n'}
+[38.441904] (custom_interface) CommandEnded: {'returncode': 0}
+[38.483347] (-) TimerEvent: {}
+[38.621468] (-) TimerEvent: {}
+[38.724400] (-) TimerEvent: {}
+[38.825862] (-) TimerEvent: {}
+[38.935724] (-) TimerEvent: {}
+[39.036370] (-) TimerEvent: {}
+[39.147606] (-) TimerEvent: {}
+[39.278037] (-) TimerEvent: {}
+[40.207884] (-) TimerEvent: {}
+[40.208656] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[40.380190] (-) TimerEvent: {}
+[40.482448] (-) TimerEvent: {}
+[40.587891] (-) TimerEvent: {}
+[40.689394] (-) TimerEvent: {}
+[41.249154] (-) TimerEvent: {}
+[41.736241] (-) TimerEvent: {}
+[41.946817] (-) TimerEvent: {}
+[42.192074] (-) TimerEvent: {}
+[42.406249] (-) TimerEvent: {}
+[42.845223] (-) TimerEvent: {}
+[43.057248] (-) TimerEvent: {}
+[43.367523] (-) TimerEvent: {}
+[43.564804] (-) TimerEvent: {}
+[43.691702] (-) TimerEvent: {}
+[43.748540] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 0}
+[43.755219] (show_msg) JobStarted: {'identifier': 'show_msg'}
+[43.795365] (-) TimerEvent: {}
+[43.902014] (-) TimerEvent: {}
+[44.017692] (-) TimerEvent: {}
+[44.044088] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'install'}
+[44.049172] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dmpasgal/Clothy/build/turtlebot3_fake_node'], 'cwd': '/home/dmpasgal/Clothy/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en_CA:en'), ('USER', 'cmarrod3'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1656'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/dmpasgal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/dmpasgal/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cmarrod3'), ('JOURNAL_STREAM', '8:34288'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmarrod3'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710'), ('INVOCATION_ID', 'db88f86fb6824b3b9ee925b32645ba90'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '60'), ('AMENT_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dmpasgal/Clothy/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic')]), 'shell': False}
+[44.068466] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.069680] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node\n'}
+[44.074510] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Set runtime path of "/home/dmpasgal/Clothy/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""\n'}
+[44.076020] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch\n'}
+[44.076266] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py\n'}
+[44.077765] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py\n'}
+[44.078230] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param\n'}
+[44.079869] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml\n'}
+[44.080936] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml\n'}
+[44.090700] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml\n'}
+[44.090920] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/include/\n'}
+[44.090964] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/include//turtlebot3_fake_node\n'}
+[44.091000] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp\n'}
+[44.091032] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node\n'}
+[44.094952] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node\n'}
+[44.095487] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh\n'}
+[44.095550] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv\n'}
+[44.095776] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh\n'}
+[44.096021] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv\n'}
+[44.096771] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash\n'}
+[44.097473] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh\n'}
+[44.098146] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh\n'}
+[44.098779] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv\n'}
+[44.099338] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv\n'}
+[44.100466] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node\n'}
+[44.101182] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[44.102211] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[44.103496] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake\n'}
+[44.104054] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake\n'}
+[44.104664] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/dmpasgal/Clothy/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml\n'}
+[44.152956] (-) TimerEvent: {}
+[44.270956] (-) TimerEvent: {}
+[44.429478] (-) TimerEvent: {}
+[44.534789] (-) TimerEvent: {}
+[44.681450] (-) TimerEvent: {}
+[44.835033] (-) TimerEvent: {}
+[44.937559] (-) TimerEvent: {}
+[45.062169] (-) TimerEvent: {}
+[45.208116] (-) TimerEvent: {}
+[45.309399] (-) TimerEvent: {}
+[45.418848] (-) TimerEvent: {}
+[45.577201] (-) TimerEvent: {}
+[45.678555] (-) TimerEvent: {}
+[45.779689] (-) TimerEvent: {}
+[45.897253] (-) TimerEvent: {}
+[46.006884] (-) TimerEvent: {}
+[46.235659] (-) TimerEvent: {}
+[46.349848] (-) TimerEvent: {}
+[46.450733] (-) TimerEvent: {}
+[46.554639] (-) TimerEvent: {}
+[46.656421] (-) TimerEvent: {}
+[46.758749] (-) TimerEvent: {}
+[46.862037] (-) TimerEvent: {}
+[46.964377] (-) TimerEvent: {}
+[47.067828] (-) TimerEvent: {}
+[47.171440] (-) TimerEvent: {}
+[47.272183] (-) TimerEvent: {}
+[47.375482] (-) TimerEvent: {}
+[47.478918] (-) TimerEvent: {}
+[47.583768] (-) TimerEvent: {}
+[47.684945] (-) TimerEvent: {}
+[47.785753] (-) TimerEvent: {}
+[47.891961] (-) TimerEvent: {}
+[47.997068] (-) TimerEvent: {}
+[48.098699] (-) TimerEvent: {}
+[48.202252] (-) TimerEvent: {}
+[48.307162] (-) TimerEvent: {}
+[48.409069] (-) TimerEvent: {}
+[48.509854] (-) TimerEvent: {}
+[48.611849] (-) TimerEvent: {}
+[48.717865] (-) TimerEvent: {}
+[48.820841] (-) TimerEvent: {}
+[48.928308] (-) TimerEvent: {}
+[49.032066] (-) TimerEvent: {}
+[49.132719] (-) TimerEvent: {}
+[49.233554] (-) TimerEvent: {}
+[49.337589] (-) TimerEvent: {}
+[49.443693] (-) TimerEvent: {}
+[49.545311] (-) TimerEvent: {}
+[49.648142] (-) TimerEvent: {}
+[49.748909] (-) TimerEvent: {}
+[49.850742] (-) TimerEvent: {}
+[49.952332] (-) TimerEvent: {}
+[50.059842] (-) TimerEvent: {}
+[50.195820] (-) TimerEvent: {}
+[50.250579] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[50.296209] (-) TimerEvent: {}
+[52.325622] (-) TimerEvent: {}
+[52.439753] (-) TimerEvent: {}
+[52.542657] (-) TimerEvent: {}
+[52.643142] (-) TimerEvent: {}
+[52.744651] (-) TimerEvent: {}
+[52.845398] (-) TimerEvent: {}
+[52.946595] (-) TimerEvent: {}
+[53.047259] (-) TimerEvent: {}
+[53.147766] (-) TimerEvent: {}
+[53.186669] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 0}
+[53.249933] (-) TimerEvent: {}
+[53.350316] (-) TimerEvent: {}
+[53.451266] (-) TimerEvent: {}
+[53.552697] (-) TimerEvent: {}
+[53.654111] (-) TimerEvent: {}
+[53.754913] (-) TimerEvent: {}
+[53.857067] (-) TimerEvent: {}
+[53.961506] (-) TimerEvent: {}
+[54.062077] (-) TimerEvent: {}
+[54.162637] (-) TimerEvent: {}
+[54.263456] (-) TimerEvent: {}
+[54.363960] (-) TimerEvent: {}
+[54.464448] (-) TimerEvent: {}
+[54.565608] (-) TimerEvent: {}
+[54.666430] (-) TimerEvent: {}
+[54.767038] (-) TimerEvent: {}
+[54.867793] (-) TimerEvent: {}
+[54.942728] (show_msg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/show_msg', 'build', '--build-base', '/home/dmpasgal/Clothy/build/show_msg/build', 'install', '--record', '/home/dmpasgal/Clothy/build/show_msg/install.log', '--single-version-externally-managed'], 'cwd': '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/show_msg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en_CA:en', 'USER': 'cmarrod3', 'LC_TIME': 'es_ES.UTF-8', 'SSH_AGENT_PID': '1656', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dmpasgal/Clothy/install/custom_interface/lib:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/dmpasgal', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'MANAGERPID': '1445', 'DBUS_STARTER_BUS_TYPE': 'session', 'ROS_LOG_DIR': '/home/dmpasgal/my_logs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dmpasgal/turtlebot3_ws/install:/home/dmpasgal/turtlebot3_ws/src/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'cmarrod3', 'JOURNAL_STREAM': '8:34288', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cmarrod3', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/dmpasgal/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Ubunto:@/tmp/.ICE-unix/1710,unix/Ubunto:/tmp/.ICE-unix/1710', 'INVOCATION_ID': 'db88f86fb6824b3b9ee925b32645ba90', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9d8de8a_d89d_4712_bbb1_c86c641e94a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '60', 'AMENT_PREFIX_PATH': '/home/dmpasgal/Clothy/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/install/custom_interface:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dmpasgal/Clothy/build/show_msg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b78c3635bfd24098a179d222662ebc7d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dmpasgal/Clothy/build/show_msg/prefix_override:/home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/Clothy/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/dmpasgal/turtlebot3_ws/src/install/show_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/dmpasgal/Clothy/install/custom_interface:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_simulations:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_gazebo:/home/dmpasgal/turtlebot3_ws/install/turtlebot3_fake_node:/home/dmpasgal/turtlebot3_ws/install/package_name:/home/dmpasgal/turtlebot3_ws/install/custom_interface'}, 'shell': False}
+[54.968164] (-) TimerEvent: {}
+[55.068789] (-) TimerEvent: {}
+[55.170116] (-) TimerEvent: {}
+[55.270560] (-) TimerEvent: {}
+[55.345066] (show_msg) StdoutLine: {'line': b'running egg_info\n'}
+[55.345236] (show_msg) StdoutLine: {'line': b'creating ../../../../build/show_msg/show_msg.egg-info\n'}
+[55.345276] (show_msg) StdoutLine: {'line': b'writing ../../../../build/show_msg/show_msg.egg-info/PKG-INFO\n'}
+[55.345310] (show_msg) StdoutLine: {'line': b'writing dependency_links to ../../../../build/show_msg/show_msg.egg-info/dependency_links.txt\n'}
+[55.345342] (show_msg) StdoutLine: {'line': b'writing entry points to ../../../../build/show_msg/show_msg.egg-info/entry_points.txt\n'}
+[55.345372] (show_msg) StdoutLine: {'line': b'writing requirements to ../../../../build/show_msg/show_msg.egg-info/requires.txt\n'}
+[55.345401] (show_msg) StdoutLine: {'line': b'writing top-level names to ../../../../build/show_msg/show_msg.egg-info/top_level.txt\n'}
+[55.371112] (-) TimerEvent: {}
+[55.400540] (show_msg) StdoutLine: {'line': b"writing manifest file '../../../../build/show_msg/show_msg.egg-info/SOURCES.txt'\n"}
+[55.471491] (-) TimerEvent: {}
+[55.572046] (-) TimerEvent: {}
+[55.672769] (-) TimerEvent: {}
+[55.773836] (-) TimerEvent: {}
+[55.838885] (show_msg) StdoutLine: {'line': b"reading manifest file '../../../../build/show_msg/show_msg.egg-info/SOURCES.txt'\n"}
+[55.842648] (show_msg) StdoutLine: {'line': b"writing manifest file '../../../../build/show_msg/show_msg.egg-info/SOURCES.txt'\n"}
+[55.849086] (show_msg) StdoutLine: {'line': b'running build\n'}
+[55.849237] (show_msg) StdoutLine: {'line': b'running build_py\n'}
+[55.852617] (show_msg) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/show_msg/build\n'}
+[55.853462] (show_msg) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/show_msg/build/lib\n'}
+[55.853565] (show_msg) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/build/show_msg/build/lib/show_msg\n'}
+[55.855632] (show_msg) StdoutLine: {'line': b'copying show_msg/show_msg.py -> /home/dmpasgal/Clothy/build/show_msg/build/lib/show_msg\n'}
+[55.864545] (show_msg) StdoutLine: {'line': b'copying show_msg/__init__.py -> /home/dmpasgal/Clothy/build/show_msg/build/lib/show_msg\n'}
+[55.864640] (show_msg) StdoutLine: {'line': b'copying show_msg/show_msg_param.py -> /home/dmpasgal/Clothy/build/show_msg/build/lib/show_msg\n'}
+[55.870018] (show_msg) StdoutLine: {'line': b'running install\n'}
+[55.872359] (show_msg) StdoutLine: {'line': b'running install_lib\n'}
+[55.874036] (-) TimerEvent: {}
+[55.876238] (show_msg) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg\n'}
+[55.876333] (show_msg) StdoutLine: {'line': b'copying /home/dmpasgal/Clothy/build/show_msg/build/lib/show_msg/show_msg.py -> /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg\n'}
+[55.877043] (show_msg) StdoutLine: {'line': b'copying /home/dmpasgal/Clothy/build/show_msg/build/lib/show_msg/__init__.py -> /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg\n'}
+[55.877941] (show_msg) StdoutLine: {'line': b'copying /home/dmpasgal/Clothy/build/show_msg/build/lib/show_msg/show_msg_param.py -> /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg\n'}
+[55.885187] (show_msg) StdoutLine: {'line': b'byte-compiling /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg.py to show_msg.cpython-38.pyc\n'}
+[55.891060] (show_msg) StdoutLine: {'line': b'byte-compiling /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg/__init__.py to __init__.cpython-38.pyc\n'}
+[55.892421] (show_msg) StdoutLine: {'line': b'byte-compiling /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg_param.py to show_msg_param.cpython-38.pyc\n'}
+[55.899127] (show_msg) StdoutLine: {'line': b'running install_data\n'}
+[55.901547] (show_msg) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/show_msg/share/ament_index\n'}
+[55.901750] (show_msg) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/show_msg/share/ament_index/resource_index\n'}
+[55.901806] (show_msg) StdoutLine: {'line': b'creating /home/dmpasgal/Clothy/install/show_msg/share/ament_index/resource_index/packages\n'}
+[55.902056] (show_msg) StdoutLine: {'line': b'copying resource/show_msg -> /home/dmpasgal/Clothy/install/show_msg/share/ament_index/resource_index/packages\n'}
+[55.903182] (show_msg) StdoutLine: {'line': b'copying package.xml -> /home/dmpasgal/Clothy/install/show_msg/share/show_msg\n'}
+[55.906018] (show_msg) StdoutLine: {'line': b'copying launch/show_msg_param.launch.py -> /home/dmpasgal/Clothy/install/show_msg/share/show_msg\n'}
+[55.906536] (show_msg) StdoutLine: {'line': b'copying launch/show_msg.launch.py -> /home/dmpasgal/Clothy/install/show_msg/share/show_msg\n'}
+[55.910866] (show_msg) StdoutLine: {'line': b'running install_egg_info\n'}
+[55.926161] (show_msg) StdoutLine: {'line': b'Copying ../../../../build/show_msg/show_msg.egg-info to /home/dmpasgal/Clothy/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info\n'}
+[55.934404] (show_msg) StdoutLine: {'line': b'running install_scripts\n'}
+[55.974395] (-) TimerEvent: {}
+[56.074768] (-) TimerEvent: {}
+[56.175774] (-) TimerEvent: {}
+[56.276553] (-) TimerEvent: {}
+[56.293057] (show_msg) StdoutLine: {'line': b'Installing show_msg script to /home/dmpasgal/Clothy/install/show_msg/lib/show_msg\n'}
+[56.293290] (show_msg) StdoutLine: {'line': b'Installing show_msg_param script to /home/dmpasgal/Clothy/install/show_msg/lib/show_msg\n'}
+[56.293450] (show_msg) StdoutLine: {'line': b"writing list of installed files to '/home/dmpasgal/Clothy/build/show_msg/install.log'\n"}
+[56.377818] (-) TimerEvent: {}
+[56.445743] (show_msg) CommandEnded: {'returncode': 0}
+[56.491511] (-) TimerEvent: {}
+[56.607345] (-) TimerEvent: {}
+[56.718699] (-) TimerEvent: {}
+[56.834726] (-) TimerEvent: {}
+[56.947558] (-) TimerEvent: {}
+[57.049187] (-) TimerEvent: {}
+[57.149721] (-) TimerEvent: {}
+[57.258866] (-) TimerEvent: {}
+[57.369457] (-) TimerEvent: {}
+[57.496085] (-) TimerEvent: {}
+[57.611618] (-) TimerEvent: {}
+[57.723674] (-) TimerEvent: {}
+[57.830291] (-) TimerEvent: {}
+[57.937130] (-) TimerEvent: {}
+[58.042857] (-) TimerEvent: {}
+[58.164459] (-) TimerEvent: {}
+[58.292882] (-) TimerEvent: {}
+[58.394062] (-) TimerEvent: {}
+[58.504242] (-) TimerEvent: {}
+[58.625571] (-) TimerEvent: {}
+[58.731586] (-) TimerEvent: {}
+[58.797029] (show_msg) JobEnded: {'identifier': 'show_msg', 'rc': 0}
+[58.832122] (-) TimerEvent: {}
+[58.933051] (-) TimerEvent: {}
+[59.033629] (-) TimerEvent: {}
+[59.134429] (-) TimerEvent: {}
+[59.235452] (-) TimerEvent: {}
+[59.336080] (-) TimerEvent: {}
+[59.437305] (-) TimerEvent: {}
+[59.537905] (-) TimerEvent: {}
+[59.638432] (-) TimerEvent: {}
+[59.739002] (-) TimerEvent: {}
+[59.839944] (-) TimerEvent: {}
+[59.940545] (-) TimerEvent: {}
+[60.044782] (-) TimerEvent: {}
+[60.146001] (-) TimerEvent: {}
+[60.246673] (-) TimerEvent: {}
+[60.347514] (-) TimerEvent: {}
+[60.450309] (-) TimerEvent: {}
+[60.550849] (-) TimerEvent: {}
+[60.653647] (-) TimerEvent: {}
+[60.755137] (-) TimerEvent: {}
+[60.855867] (-) TimerEvent: {}
+[60.956400] (-) TimerEvent: {}
+[61.056852] (-) TimerEvent: {}
+[61.157536] (-) TimerEvent: {}
+[61.257954] (-) TimerEvent: {}
+[61.358443] (-) TimerEvent: {}
+[61.458912] (-) TimerEvent: {}
+[61.559429] (-) TimerEvent: {}
+[61.660121] (-) TimerEvent: {}
+[61.873108] (-) TimerEvent: {}
+[61.975793] (-) TimerEvent: {}
+[62.076787] (-) TimerEvent: {}
+[62.177082] (-) TimerEvent: {}
+[62.278666] (-) TimerEvent: {}
+[62.381082] (-) TimerEvent: {}
+[62.481951] (-) TimerEvent: {}
+[62.582700] (-) TimerEvent: {}
+[62.683263] (-) TimerEvent: {}
+[62.785114] (-) TimerEvent: {}
+[62.887445] (-) TimerEvent: {}
+[62.991783] (-) TimerEvent: {}
+[63.094726] (-) TimerEvent: {}
+[63.196856] (-) TimerEvent: {}
+[63.297715] (-) TimerEvent: {}
+[63.398258] (-) TimerEvent: {}
+[63.499127] (-) TimerEvent: {}
+[63.599886] (-) TimerEvent: {}
+[63.700674] (-) TimerEvent: {}
+[63.801662] (-) TimerEvent: {}
+[63.902318] (-) TimerEvent: {}
+[64.002934] (-) TimerEvent: {}
+[64.103841] (-) TimerEvent: {}
+[64.205427] (-) TimerEvent: {}
+[64.306050] (-) TimerEvent: {}
+[64.409473] (-) TimerEvent: {}
+[64.511558] (-) TimerEvent: {}
+[64.613556] (-) TimerEvent: {}
+[64.724431] (-) TimerEvent: {}
+[64.886104] (-) TimerEvent: {}
+[65.271417] (-) TimerEvent: {}
+[65.493048] (-) TimerEvent: {}
+[65.688314] (-) TimerEvent: {}
+[65.895022] (-) TimerEvent: {}
+[66.068962] (-) TimerEvent: {}
+[66.337105] (-) TimerEvent: {}
+[66.502131] (-) TimerEvent: {}
+[66.802419] (-) TimerEvent: {}
+[66.958520] (-) TimerEvent: {}
+[67.118006] (-) TimerEvent: {}
+[67.387003] (-) TimerEvent: {}
+[67.679173] (-) TimerEvent: {}
+[67.972333] (-) TimerEvent: {}
+[68.410672] (-) TimerEvent: {}
+[69.031612] (-) TimerEvent: {}
+[69.317131] (-) TimerEvent: {}
+[69.872796] (-) TimerEvent: {}
+[70.569159] (-) TimerEvent: {}
+[71.059613] (-) TimerEvent: {}
+[71.471930] (-) TimerEvent: {}
+[72.103475] (-) TimerEvent: {}
+[72.657637] (-) TimerEvent: {}
+[73.330072] (-) TimerEvent: {}
+[74.020882] (-) TimerEvent: {}
+[74.556148] (-) TimerEvent: {}
+[75.327500] (-) TimerEvent: {}
+[76.254385] (-) TimerEvent: {}
+[76.924467] (-) TimerEvent: {}
+[77.518212] (-) TimerEvent: {}
+[78.034857] (-) TimerEvent: {}
+[78.763142] (-) TimerEvent: {}
+[79.724049] (-) TimerEvent: {}
+[80.793352] (-) TimerEvent: {}
+[86.043075] (-) TimerEvent: {}
+[98.023221] (-) TimerEvent: {}
+[98.883652] (-) TimerEvent: {}
+[99.252823] (-) TimerEvent: {}
+[99.668574] (-) TimerEvent: {}
+[100.358175] (-) TimerEvent: {}
+[101.243102] (-) TimerEvent: {}
+[101.867156] (-) TimerEvent: {}
+[103.499856] (-) TimerEvent: {}
+[104.712015] (-) TimerEvent: {}
+[114.075123] (-) TimerEvent: {}
+[119.130987] (-) TimerEvent: {}
+[123.450967] (-) TimerEvent: {}
+[129.591674] (-) TimerEvent: {}
+[139.359275] (-) TimerEvent: {}
+[143.854205] (-) TimerEvent: {}
+[149.199773] (-) TimerEvent: {}
+[151.878910] (-) TimerEvent: {}
+[154.636654] (-) TimerEvent: {}
+[155.651800] (-) TimerEvent: {}
+[157.479940] (-) TimerEvent: {}
+[158.247739] (-) TimerEvent: {}
+[159.451082] (-) TimerEvent: {}
+[162.165113] (-) TimerEvent: {}
+[169.779581] (-) TimerEvent: {}
+[177.673638] (-) TimerEvent: {}
+[182.769283] (-) TimerEvent: {}
+[190.594678] (-) TimerEvent: {}
+[195.667526] (-) TimerEvent: {}
+[201.901175] (-) TimerEvent: {}
+[210.032522] (-) TimerEvent: {}
+[219.269797] (-) TimerEvent: {}
+[224.831572] (-) TimerEvent: {}
+[229.986371] (-) TimerEvent: {}
+[236.065564] (-) TimerEvent: {}
+[241.154692] (-) TimerEvent: {}
+[253.128208] (-) TimerEvent: {}
+[264.582842] (-) TimerEvent: {}
+[269.877991] (-) TimerEvent: {}
+[272.192466] (-) TimerEvent: {}
+[274.821381] (-) TimerEvent: {}
+[280.909613] (-) TimerEvent: {}
+[287.726037] (-) TimerEvent: {}
+[301.302211] (-) TimerEvent: {}
+[305.081067] (-) TimerEvent: {}
+[312.246442] (-) TimerEvent: {}
+[317.426892] (-) TimerEvent: {}
+[321.715393] (-) TimerEvent: {}
+[327.533615] (-) TimerEvent: {}
+[333.353946] (-) TimerEvent: {}
+[343.906760] (-) TimerEvent: {}
+[348.547765] (-) TimerEvent: {}
+[355.325984] (-) TimerEvent: {}
+[362.286331] (-) TimerEvent: {}
+[365.825670] (-) TimerEvent: {}
+[371.479015] (-) TimerEvent: {}
+[380.091033] (-) TimerEvent: {}
+[387.268645] (-) TimerEvent: {}
+[394.532305] (-) TimerEvent: {}
+[401.154130] (-) TimerEvent: {}
+[407.155812] (-) TimerEvent: {}
+[411.951952] (-) TimerEvent: {}
+[416.009937] (-) TimerEvent: {}
+[419.649599] (-) TimerEvent: {}
+[423.680934] (-) TimerEvent: {}
+[431.052575] (-) TimerEvent: {}
+[436.697824] (-) TimerEvent: {}
+[440.836312] (-) TimerEvent: {}
+[442.426105] (-) TimerEvent: {}
+[447.199962] (-) TimerEvent: {}
+[459.015645] (-) TimerEvent: {}
+[460.749310] (-) TimerEvent: {}
+[465.288964] (-) TimerEvent: {}
+[469.445004] (-) TimerEvent: {}
+[474.906288] (-) TimerEvent: {}
+[484.720114] (-) TimerEvent: {}
+[501.179122] (-) TimerEvent: {}
+[507.803570] (-) TimerEvent: {}
+[514.148940] (-) TimerEvent: {}
+[518.654042] (-) TimerEvent: {}
+[520.282374] (-) TimerEvent: {}
+[523.153177] (-) TimerEvent: {}
+[532.642324] (-) TimerEvent: {}
+[536.190954] (-) TimerEvent: {}

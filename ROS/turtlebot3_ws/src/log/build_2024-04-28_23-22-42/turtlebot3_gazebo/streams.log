@@ -1,0 +1,14 @@
+[0.662s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/show_msg:/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/provide_map:/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/my_slam:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_gazebo -- -j4 -l4
+[0.757s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.774s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[0.774s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[0.780s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[8.287s] make[2]: *** [CMakeFiles/obstacle2.dir/build.make:63: CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o] Interrupción
+[8.294s] make[2]: *** [CMakeFiles/turtlebot3_drive.dir/build.make:63: CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o] Interrupción
+[8.294s] make[2]: *** [CMakeFiles/obstacle1.dir/build.make:63: CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o] Interrupción
+[8.295s] make[2]: *** [CMakeFiles/obstacles.dir/build.make:63: CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o] Interrupción
+[8.327s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/turtlebot3_drive.dir/all] Interrupción
+[8.328s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/obstacles.dir/all] Interrupción
+[8.328s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle1.dir/all] Interrupción
+[8.328s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/obstacle2.dir/all] Interrupción
+[8.343s] make: *** [Makefile:141: all] Interrupción

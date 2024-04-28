@@ -1,0 +1,20 @@
+[0.832s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/my_slam': PYTHONPATH=/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/my_slam/prefix_override:/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_slam build --build-base /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/my_slam/build install --record /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/my_slam/install.log --single-version-externally-managed
+[0.968s] running egg_info
+[0.969s] writing ../build/my_slam/my_slam.egg-info/PKG-INFO
+[0.970s] writing dependency_links to ../build/my_slam/my_slam.egg-info/dependency_links.txt
+[0.970s] writing entry points to ../build/my_slam/my_slam.egg-info/entry_points.txt
+[0.971s] writing requirements to ../build/my_slam/my_slam.egg-info/requires.txt
+[0.971s] writing top-level names to ../build/my_slam/my_slam.egg-info/top_level.txt
+[0.999s] reading manifest file '../build/my_slam/my_slam.egg-info/SOURCES.txt'
+[1.000s] writing manifest file '../build/my_slam/my_slam.egg-info/SOURCES.txt'
+[1.000s] running build
+[1.000s] running build_py
+[1.000s] running install
+[1.001s] running install_lib
+[1.002s] running install_data
+[1.002s] running install_egg_info
+[1.003s] removing '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/my_slam/lib/python3.8/site-packages/my_slam-0.0.0-py3.8.egg-info' (and everything under it)
+[1.003s] Copying ../build/my_slam/my_slam.egg-info to /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/my_slam/lib/python3.8/site-packages/my_slam-0.0.0-py3.8.egg-info
+[1.005s] running install_scripts
+[1.016s] writing list of installed files to '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/my_slam/install.log'
+[1.032s] Invoked command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/my_slam' returned '0': PYTHONPATH=/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/my_slam/prefix_override:/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/install/my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_slam build --build-base /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/my_slam/build install --record /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/my_slam/install.log --single-version-externally-managed
