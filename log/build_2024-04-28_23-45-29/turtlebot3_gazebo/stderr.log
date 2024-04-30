@@ -1,6 +1,0 @@
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KTerminado (killed) signal terminated program cc1plus
-compilation terminated.
-make[2]: *** [CMakeFiles/obstacle1.dir/build.make:63: CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle1.dir/all] Error 2
-make[1]: *** Se espera a que terminen otras tareas....
-make: *** [Makefile:141: all] Error 2

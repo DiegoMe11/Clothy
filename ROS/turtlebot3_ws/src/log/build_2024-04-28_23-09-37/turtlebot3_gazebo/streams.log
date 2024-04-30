@@ -1,5 +1,0 @@
-[0.604s] Invoking command in '/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmpasgal/turtlebot3_ws/install/show_msg:/home/dmpasgal/turtlebot3_ws/install/my_first_subscriber:/home/dmpasgal/turtlebot3_ws/install/my_first_publisher:/home/dmpasgal/turtlebot3_ws/install/my_first_node:/home/dmpasgal/turtlebot3_ws/src/install/show_msg:/opt/ros/galactic /usr/bin/cmake --build /home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/build/turtlebot3_gazebo -- -j4 -l4
-[0.879s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
-[0.895s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
-[0.895s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
-[0.896s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m

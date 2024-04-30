@@ -1,6 +1,0 @@
-CMake Error at cmake_install.cmake:70 (file):
-  file INSTALL cannot find
-  "/home/dmpasgal/Clothy/ROS/turtlebot3_ws/src/my_world/include": No such
-  file or directory.
-
-

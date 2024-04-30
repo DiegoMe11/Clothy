@@ -1,7 +1,0 @@
-{
-  "package_name": "custom_interface",
-  "non_idl_tuples": [
-    "/home/cmarrod3/turtlebot3_ws/src/custom_interface:msg/Distvel.msg",
-    "/home/cmarrod3/turtlebot3_ws/src/custom_interface:srv/MyMoveMsg.srv"
-  ]
-}
