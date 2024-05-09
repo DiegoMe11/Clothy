@@ -28,7 +28,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'initial_pose_pub = clothy_nav2_system.initial_pose_pub:main'
+            'initial_pose_pub = clothy_nav2_system.initial_pose_pub:main',
+            'go_goal = clothy_nav2_system.go_goal:main'
         ],
     },
 )
