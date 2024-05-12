@@ -40,5 +40,6 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Distvel.msg"
   "srv/MyMoveMsg.srv"  #incluir esta linea
+  "srv/MyWavpointMsg.srv"  #incluir esta linea
 )
 ament_package()

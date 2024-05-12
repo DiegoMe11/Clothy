@@ -24,7 +24,8 @@ setup(
     entry_points={
         'console_scripts': [
             'movement_server = clothy_service.movement_server:main',
-            'movement_client = clothy_service.movement_client:main'
+            'movement_client = clothy_service.movement_client:main',
+            'my_waypoint_follower_server = clothy_service.my_waypoint_follower_server:main'
         ],
     },
 )
