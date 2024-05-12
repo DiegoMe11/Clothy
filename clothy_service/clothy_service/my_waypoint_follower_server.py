@@ -21,7 +21,7 @@ class WaypointService(Node):
         return response
 
     def define_waypoints(self):
-        waypoints = [self.create_pose_stamped(1.0, 1.0, 1.0), self.create_pose_stamped(2.0, 0.0, 1.0), self.create_pose_stamped(4.0, 0.0, 1.0)]
+        waypoints = [self.create_pose_stamped(1.0, 0.0, 1.0), self.create_pose_stamped(2.0, 1.0, 1.0), self.create_pose_stamped(3.0, 1.0, 1.0)]
         return waypoints
 
     def create_pose_stamped(self, x, y, z):
