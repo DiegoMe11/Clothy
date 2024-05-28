@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="image_model">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>10 10</size> <!-- Tamaño del plano -->
+          </plane>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>10 10</size> <!-- Tamaño del plano -->
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name> <!-- Material predeterminado -->
+            <shader>
+              <normal_map>__default__</normal_map>
+              <ambient>0.8 0.8 0.8 1</ambient>
+            </shader>
+          </script>
+          <texture>
+            <diffuse>file:///home/codo/opencv/fotos/azul.jpeg</diffuse> <!-- Ruta a tu imagen -->
+            <size>1</size>
+          </texture>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
