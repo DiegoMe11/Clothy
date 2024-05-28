@@ -14,9 +14,10 @@ class WaypointNavigator(Node):
     def define_waypoints_route_1(self):
         # Define los puntos de ruta (waypoints) para la ruta 1
         waypoints = [
-            self.create_pose_stamped(1.0, 0.0, 1.0),
-            self.create_pose_stamped(2.0, 0.0, 1.0),
-            self.create_pose_stamped(3.0, 0.0, 1.0)
+            self.create_pose_stamped(0.0, 4.0, 1.0,0.0),
+            self.create_pose_stamped(7.0, 4.0, 0.7,0.6),
+            self.create_pose_stamped(7.0, 7.0, 1.0,0.0),
+             self.create_pose_stamped(9.0, 7.0, 0.6,-0.7)
         ]
         return waypoints
 
@@ -38,12 +39,13 @@ class WaypointNavigator(Node):
         ]
         return waypoints
 
-    def create_pose_stamped(self, x, y, z):
+    def create_pose_stamped(self, x, y, w, z):
         pose = PoseStamped()
         pose.header.frame_id = 'map'
         pose.pose.position.x = x
         pose.pose.position.y = y
-        pose.pose.orientation.w = z
+        pose.pose.orientation.w = w
+        pose.pose.orientation.z = z
         return pose
 
     def send_waypoints(self, waypoints):
