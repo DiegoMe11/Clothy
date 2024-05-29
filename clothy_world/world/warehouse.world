@@ -2184,8 +2184,8 @@
         </script>
       </actor>
       <include>
-        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
-        <uri>model://turtlebot3_burger_pi</uri>
+        <pose>0.0 0.0 1.0 0.0 0.0 0.0</pose>
+        <uri>model://turtlebot3_burger</uri>
     </include>
       
   </world>

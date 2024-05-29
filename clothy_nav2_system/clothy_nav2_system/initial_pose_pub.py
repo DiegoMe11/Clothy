@@ -1,4 +1,3 @@
-# initial_pose_pub.py
 import sys
 import rclpy
 from rclpy.node import Node
@@ -16,10 +15,10 @@ class Publisher(Node):
     def callback(self):
         msg = PoseWithCovarianceStamped()
         msg.header.frame_id = 'map'
-        msg.pose.pose.position.x = 0.0
+        msg.pose.pose.position.x = 5.0
         msg.pose.pose.position.y = 0.0
-        msg.pose.pose.orientation.w = 0.0
-        self.get_logger().info('Publishing  Initial Position  \n X= 0.2 \n Y=0.0 \n W = 1.0 ')
+        msg.pose.pose.orientation.w = 1.0
+        self.get_logger().info('Publishing Initial Position \n X= 5.0 \n Y= 0.0 \n W = 1.0 ')
         self.publisher_.publish(msg)
 
 def main(args=None):
