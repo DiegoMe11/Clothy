@@ -31,6 +31,13 @@ class WaypointNavigator(Node):
         ]
         return waypoints
 
+    def define_waypoints_route_4(self):
+        # Define los puntos de ruta (waypoints) para la ruta 2
+        waypoints = [
+            self.create_pose_stamped(1.0, 0.0, 1.0,0.0)
+        ]
+        return waypoints
+
     def define_waypoints_route_3(self):
         # Define los puntos de ruta (waypoints) para la ruta 3
         waypoints = [
@@ -93,6 +100,8 @@ def main(args=None):
         waypoints = waypoint_navigator.define_waypoints_route_2()
     elif route == 'ruta 3':
         waypoints = waypoint_navigator.define_waypoints_route_3()
+    elif route == 'ruta 4':
+        waypoints = waypoint_navigator.define_waypoints_route_4()
     else:
         print("Invalid route")
         rclpy.shutdown()
